@@ -1,0 +1,55 @@
+parent: sun
+radius: 2
+camRadius: 1
+orbitRadius: 90
+orbitOffset: 210
+atmosphereRadIn: 2
+atmosphereRadOut: 2.3
+atmosphereColor: 92d4ff
+accessible: true
+mesh: [
+  {
+    type: HexSkyMesh
+    radius: 1
+    divisions: 5
+    speed: -4
+    color: 095f98
+    octaves: 1
+    persistence: 1
+    scl: 1
+    thresh: 1
+  }
+  {
+    type: HexSkyMesh
+    radius: 1.1
+    divisions: 5
+    speed: 2.7
+    color: 225576
+    octaves: 1
+    persistence: 1
+    scl: 1
+    thresh: 0.5
+  }
+  {
+    type: HexSkyMesh
+    speed: 3.2
+    divisions: 5
+    radius: 1.15
+    color: 2d7bae
+    octaves: 3
+    persistence: 0.5
+    scl: 1
+    thresh: 0.45
+  }
+  {
+    type: HexSkyMesh
+    speed: 2.3
+    divisions: 5
+    radius: 1.05
+    color: 5399c7
+    octaves: 3
+    persistence: 0.5
+    scl: 1
+    thresh: 0.6
+  }
+]
