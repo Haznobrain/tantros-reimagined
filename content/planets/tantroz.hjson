@@ -7,6 +7,7 @@ atmosphereRadIn: 2
 atmosphereRadOut: 2.3
 atmosphereColor: 92d4ff
 accessible: true
+startSector: 10
 mesh: [
   {
     type: HexSkyMesh
