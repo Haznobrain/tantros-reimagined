@@ -8,6 +8,9 @@ atmosphereRadOut: 2.3
 atmosphereColor: 92d4ff
 accessible: true
 startSector: 10
+sectorSize: 3.1
+alwaysUnlocked: true
+totalRadius: 2.6
 mesh: [
   {
     type: HexSkyMesh
