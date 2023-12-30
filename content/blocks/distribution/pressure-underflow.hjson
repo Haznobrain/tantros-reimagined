@@ -1,0 +1,9 @@
+type: OverflowDuct
+speed: 4
+name: Pressure underflow
+invert: true
+description: outputs items to the front if the side paths are blocked. Only accepts items at the back.
+requirements: [
+    aluminium/6
+    limestone/2
+  ]
