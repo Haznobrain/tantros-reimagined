@@ -5,7 +5,6 @@ orbitRadius: 90
 orbitOffset: 210
 type: planet
 atmosphereRadIn: 2
-defaultEnv: underwater
 atmosphereRadOut: 2.3
 atmosphereColor: 92d4ff
 generator: TantrosPlanetGenerator
