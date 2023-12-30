@@ -10,7 +10,7 @@ health: 150
 weapons: [
 {
   x: 3
-  y: 2
+  y: 0
   shootSound: blaster
   reload: 30
   mirror: true
