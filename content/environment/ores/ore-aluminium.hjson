@@ -1,3 +1,4 @@
 type: OreBlock
 itemDrop: aluminium
-oreDefault: true
+variants: 3
+hardness: 2
