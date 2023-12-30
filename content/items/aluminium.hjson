@@ -2,3 +2,5 @@ type: item
 name: Aluminium
 description: The base ressource on tantros. Light and mildly durable.
 color: 7b7b7b
+hardness: 2
+healthScaling: 0.02
