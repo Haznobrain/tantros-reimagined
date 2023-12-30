@@ -7,6 +7,8 @@ buildSpeed: 0.75
 drag: 0.4
 hitSize: 6
 health: 150
+mineSpeed: 4
+mineTier: 2
 weapons: [
 {
   x: 3
