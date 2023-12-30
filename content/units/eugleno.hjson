@@ -1,0 +1,43 @@
+name: Eugleno
+description: A small unit that can build, keeper of the submerged core.
+type: mech
+canBoost: true
+speed: 2.7
+buildSpeed: 0.75
+drag: 0.04
+hitSize: 6
+health: 150
+weapons: [
+{
+  x: 3
+  y: 2
+  shootSound: blaster
+  reload: 30
+  mirror: true
+  range: 120
+  bullet: {
+    type: BasicBuleltType
+    weaveScale: 3
+    weaveMag: 3
+    speed: 4
+    lifetime: 30
+    damage: 11
+    splashDamage: 3
+    splashDamageRadius: 6
+    trailLength: 3
+    trailWidth: 5
+    height: 5
+    width: 5
+    trailInterval: 8
+    trailEffect: {
+      type: ParticleEffect
+      particles: 6
+      sprite: tantrosmod-bubble
+      lifetime: 30
+      sizeTo: 6
+      sizeFrom: 6
+      length: 6
+        }
+  }
+}
+]
