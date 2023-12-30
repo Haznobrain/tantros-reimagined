@@ -1,1 +1,8 @@
-
+name: Limestone
+description: A type of stone that can be useful for building purposes.
+color: fff8d7
+healthScaling: 0.01
+explosiveness: 0
+flammabality: 0
+charge: 0
+radioactivity: 0
