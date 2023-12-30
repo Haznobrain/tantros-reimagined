@@ -12,8 +12,8 @@ allowLaunchToNumbered: false
 visible: true
 hasAtmosphere: true
 bloom: true
-atmosphereRadIn: 2
-atmosphereRadOut: 2.3
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.3
 atmosphereColor: 92d4ff
 generator: TantrosPlanetGenerator
 accessible: true
