@@ -4,7 +4,7 @@ type: mech
 canBoost: true
 speed: 2.7
 buildSpeed: 0.75
-drag: 0.04
+drag: 0.4
 hitSize: 6
 health: 150
 weapons: [
