@@ -4,6 +4,7 @@ camRadius: 1
 orbitRadius: 90
 orbitOffset: 210
 type: planet
+landCloudColor: 
 atmosphereRadIn: 2
 atmosphereRadOut: 2.3
 atmosphereColor: 92d4ff
@@ -14,6 +15,23 @@ startSector: 10
 sectorSize: 3.1
 alwaysUnlocked: true
 totalRadius: 2.6
+hiddenItems: [
+copper,
+lead,
+metaglass,
+titanium,
+plastanium,
+graphite,
+coal,
+phase-fabric,
+surge-alloy,
+scrap,
+spore-pod,
+beryllium,
+tungsten,
+oxide,
+carbide
+]
 mesh: [
   {
     type: HexSkyMesh
