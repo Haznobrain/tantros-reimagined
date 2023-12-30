@@ -1,0 +1,8 @@
+type: OverflowDuct
+speed: 4
+name: Pressure overflow
+description: outputs items to the side if the front path is block. Only accepts items at the back.
+requirements: [
+    aluminium/6
+    limestone/2
+  ]
