@@ -56,21 +56,6 @@ mesh: [
     cthresh: 1
   }
   {
-    type: NoiseMesh
-    divisions: 5
-    radius: 1.9955
-    color1: 2d7bae
-    color2: 5fa7ea
-    octaves: 4.6
-    persistence: 0.9
-    scale: 0.7
-    mag: 1.5
-    coct: 4
-    cper: 1
-    cscl: 1.8
-    cthresh: 1
-  }
-  {
     type: HexSkyMesh
     radius: 1
     divisions: 5
