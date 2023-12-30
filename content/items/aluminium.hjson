@@ -2,6 +2,7 @@ name: Aluminium
 description: The base ressource on tantros. Light and mildly durable.
 color: 7b7b7b
 healthScaling: 0.02
+hardness: 2
 explosiveness: 0
 flammabality: 0
 charge: 0
