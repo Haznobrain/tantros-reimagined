@@ -2,9 +2,10 @@ name: Current drill
 description: Uses kinetic energy from the movement of fluids in its environment to mine low tier ores.
 tier: 2
 type: drill
-drillTime: 300
+drillTime: 480
 liquidBoostIntensity: 1.25
 size: 2
 requirements: [
   aluminium/30
 ]
+category: production
