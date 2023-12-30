@@ -4,7 +4,14 @@ camRadius: 1
 orbitRadius: 90
 orbitOffset: 210
 type: planet
-landCloudColor: 
+landCloudColor: 3d93e5
+tidalLock: false
+lightSrcTo: 0.5
+lightDstFrom: 0.2
+allowLaunchToNumbered: false
+visible: true
+hasAtmosphere: true
+bloom: true
 atmosphereRadIn: 2
 atmosphereRadOut: 2.3
 atmosphereColor: 92d4ff
@@ -33,6 +40,36 @@ oxide,
 carbide
 ]
 mesh: [
+  {
+    type: NoiseMesh
+    divisions: 5
+    radius: 0.63
+    color1: 095f98
+    color2: 225576
+    octaves: 4.6
+    persistence: 0.9
+    scale: 0.7
+    mag: 1.1
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
+  }
+  {
+    type: NoiseMesh
+    divisions: 5
+    radius: 0.6045
+    color1: 2d7bae
+    color2: 4a4b53
+    octaves: 4.6
+    persistence: 0.9
+    scale: 0.7
+    mag: 1.5
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
+  }
   {
     type: HexSkyMesh
     radius: 1
