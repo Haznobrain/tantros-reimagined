@@ -34,8 +34,8 @@ weapons: [
       particles: 1
       sprite: tantrosmod-bubble
       lifetime: 30
-      sizeTo: 6
-      sizeFrom: 6
+      sizeTo: 3
+      sizeFrom: 3
       length: 6
         }
   }
