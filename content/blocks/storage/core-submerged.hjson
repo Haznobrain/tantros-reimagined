@@ -6,3 +6,4 @@ health: 2500
 itemCapacity: 3500
 size: 3
 unitCapModifier: 10
+unitType: eugleno
