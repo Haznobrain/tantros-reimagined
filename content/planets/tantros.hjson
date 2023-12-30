@@ -3,10 +3,14 @@ radius: 2
 camRadius: 1
 orbitRadius: 90
 orbitOffset: 210
+type: planet
 atmosphereRadIn: 2
+defaultEnv: terrestrial
 atmosphereRadOut: 2.3
 atmosphereColor: 92d4ff
+generator: TantrosPlanetGenerator
 accessible: true
+defaultCore: core: submerged
 startSector: 10
 sectorSize: 3.1
 alwaysUnlocked: true
