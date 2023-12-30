@@ -1,0 +1,7 @@
+type: duct
+speed: 4
+requirements: [
+    aluminium/2
+  ]
+  description: pushes fluids along through pressurized fluids extracted from its environment.
+  name: Pressure duct
