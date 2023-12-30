@@ -1,0 +1,7 @@
+type: DuctRouter
+speed: 4
+requirements: [
+  aluminium/5
+  ]
+  name: Pressure router
+  description: Splits items equally beetween 3 directions. Only accepts input from the back.
