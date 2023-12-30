@@ -6,6 +6,7 @@ orbitOffset: 210
 type: planet
 landCloudColor: 3d93e5
 tidalLock: false
+name: Tantros
 lightSrcTo: 0.5
 lightDstFrom: 0.2
 allowLaunchToNumbered: false
