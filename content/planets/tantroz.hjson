@@ -43,7 +43,7 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 5
-    radius: 2.2955
+    radius: 1.9955
     color1: 095f98
     color2: 225576
     octaves: 4.6
@@ -58,7 +58,7 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 5
-    radius: 2.5
+    radius: 2
     color1: 2d7bae
     color2: 5fa7ea
     octaves: 4.6
