@@ -9,7 +9,7 @@ atmosphereRadOut: 2.3
 atmosphereColor: 92d4ff
 generator: TantrosPlanetGenerator
 accessible: true
-defaultCore: core: submerged
+defaultCore: core-submerged
 startSector: 10
 sectorSize: 3.1
 alwaysUnlocked: true
