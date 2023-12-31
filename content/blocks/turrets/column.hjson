@@ -5,6 +5,7 @@ reload: 45
 shootSound: instShoot
 recoil: 0
 size: 2
+category: turret
 range: 200
   targetGround: false
   targetAir: true
