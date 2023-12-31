@@ -16,14 +16,7 @@ ammoTypes: [
     damage: 16
     lifetime: 24
     speed: 4
-    shootEffect: {
-      type: ParticleEffect
-      line: true
-      cone: 10
-      lifetime: 15
-      particles: 6
 }
-      }
       ]
       
     
