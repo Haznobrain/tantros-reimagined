@@ -14,6 +14,8 @@ ammoTypes: [
     backColor: 6d6d6d
     frontColor: b6b6b6
     damage: 16
+    lifetime: 24
+    speed: 4
     shootEffect: {
       type: ParticleEffect
       line: true
@@ -21,8 +23,6 @@ ammoTypes: [
       lifetime: 15
       particles: 6
 }
-    lifetime: 24
-    speed: 4
       }
       ]
       
