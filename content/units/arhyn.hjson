@@ -1,0 +1,24 @@
+type: mech
+name: Arhyn
+health: 170
+armor: 1
+description: Shoots small sapping bullets at ennemy targets.
+speed: 0.5
+weapons: [
+  {
+  name: arhyn-gun
+  x: 0
+  y: 0
+  shootX: 12
+  shootY: 2
+  reload: 60
+  range: 64
+  bullet: {
+    type: SapBulletType
+    length: 64
+    color: ffd37f
+    damage: 20
+    knockback: -0.5
+      }
+}
+]
