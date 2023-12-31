@@ -1,0 +1,42 @@
+type: ItemTurret
+name: Column
+description: Fires an immobilizing point beam at ennemy air targets.
+reload: 45
+shootSound: instShoot
+recoil: 1
+size: 1
+range: 96
+  targetGround: false
+  targetAir: true
+ammoTypes: {
+  aluminium: {
+    type: PointBulletType
+    trailEffect: {
+        type: ParticleEffect
+        sprite: tantrosmod-bubble
+        length: 8
+        lifetime: 12
+        cone: 0
+        lightScl: 0
+          }
+    damage: 45
+    splashDamage: 25
+    shootEffect: {
+      type: ParticleEffect
+      line: true
+      cone: 10
+      length: 12
+      colorFrom: b6b6b6
+      colorTo: 6d6d6d
+      lifetime: 10
+    status: unmoving
+    statusDuration: 20
+    collidesAir: true
+    collidesGround: false
+    }
+}
+      }
+      requirements: [
+        aluminium/25
+        limestone/10
+]
