@@ -5,6 +5,7 @@ reload: 45
 shootSound: shootSnap
 recoil: 1
 size: 1
+category: turret
 range: 96
 ammoTypes: {
   aluminium: {
