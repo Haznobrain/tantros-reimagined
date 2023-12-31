@@ -3,7 +3,7 @@ name: Column
 description: Fires an immobilizing point beam at ennemy air targets.
 reload: 45
 shootSound: instShoot
-recoil: 1
+recoil: 0
 size: 1
 range: 96
   targetGround: false
@@ -37,6 +37,30 @@ ammoTypes: {
 }
       }
       requirements: [
-        aluminium/25
-        limestone/10
+        aluminium/70
+        limestone/40
+]
+drawer: [
+{
+type: DrawTurret
+parts: [
+{
+  type: RegionPart
+  suffix: -barrel
+  progress: recoil
+  x: 0
+  y: 0
+  moveY: -6
+  }
+{
+  type: RegionPart
+  suffix: -side
+  mirror: true
+  progress: recoil
+  x: 0
+  y: 0
+  moveRot: -15
+  }
+]
+}
 ]
