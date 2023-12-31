@@ -5,7 +5,7 @@ reload: 45
 shootSound: instShoot
 recoil: 0
 size: 2
-range: 96
+range: 200
   targetGround: false
   targetAir: true
 ammoTypes: {
@@ -21,6 +21,10 @@ ammoTypes: {
           }
     damage: 45
     splashDamage: 25
+    status: unmoving
+    statusDuration: 20
+    collidesAir: true
+    collidesGround: false
     shootEffect: {
       type: ParticleEffect
       line: true
@@ -29,10 +33,6 @@ ammoTypes: {
       colorFrom: b6b6b6
       colorTo: 6d6d6d
       lifetime: 10
-    status: unmoving
-    statusDuration: 20
-    collidesAir: true
-    collidesGround: false
     }
 }
       }
