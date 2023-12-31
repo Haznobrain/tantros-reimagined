@@ -6,7 +6,7 @@ shootSound: shootSnap
 recoil: 1
 size: 1
 range: 96
-ammoTypes: [
+ammoTypes: {
   aluminium: {
     type: BasicBulletType
     sprite: mine-bullet
@@ -16,7 +16,15 @@ ammoTypes: [
     damage: 16
     lifetime: 24
     speed: 4
+    shootEffect: {
+      type: ParticleEffect
+      line: true
+      cone: 10
+      length: 12
+      colorFrom: b6b6b6
+      colorTo: 6d6d6d
+    }
 }
-      ]
+      }
       
     
