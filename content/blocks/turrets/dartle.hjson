@@ -1,0 +1,29 @@
+type: ItemTurret
+name: Dartle
+description: Shoots small aluminium bolts at ennemy targets.
+reload: 45
+shootSound: shootSnap
+recoil: 1
+size: 1
+range: 96
+ammoTypes: [
+  aluminium: {
+    type: BasicBulletType
+    sprite: mine-bullet
+    backSprite: large-bomb-back
+    backColor: 6d6d6d
+    frontColor: b6b6b6
+    damage: 16
+    shootEffect: {
+      type: ParticleEffect
+      line: true
+      cone: 10
+      lifetime: 15
+      particles: 6
+        }
+    lifetime: 24
+    speed: 4
+      }
+      ]
+      
+    
