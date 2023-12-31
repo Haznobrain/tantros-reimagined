@@ -6,6 +6,7 @@ shootSound: instShoot
 recoil: 0
 size: 2
 category: turret
+predictTarget: false
 range: 200
   targetGround: false
   targetAir: true
