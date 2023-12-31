@@ -9,11 +9,11 @@ weapons: [
   name: arhyn-gun
   x: 0
   y: 0
-  shootX: 8
+  shootX: 7
   top: false
   shootSound: sap
-  shootY: 2
-  reload: 60
+  shootY: 1
+  reload: 45
   range: 64
   bullet: {
     type: SapBulletType
