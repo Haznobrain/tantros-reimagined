@@ -2,7 +2,7 @@ type: ItemTurret
 name: Column
 description: Fires an immobilizing point beam at ennemy air targets.
 reload: 45
-shootSound: instShoot
+shootSound: railgun
 recoil: 0
 size: 2
 category: turret
