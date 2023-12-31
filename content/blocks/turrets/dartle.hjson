@@ -27,7 +27,7 @@ ammoTypes: {
 }
       }
       requirements: [
-        alumnium/25
+        aluminium/25
         limestone/10
 ]
     
