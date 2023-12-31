@@ -4,7 +4,7 @@ description: Fires an immobilizing point beam at ennemy air targets.
 reload: 45
 shootSound: instShoot
 recoil: 0
-size: 1
+size: 2
 range: 96
   targetGround: false
   targetAir: true
