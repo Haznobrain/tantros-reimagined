@@ -6,7 +6,7 @@ outputLiquid: oil/1
 liquidCapacity: 10
 consumes: {
     items: [
-      kelp: 2
+      kelp/2
     ]
 }
 
