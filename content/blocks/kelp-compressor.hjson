@@ -1,0 +1,22 @@
+name: Kelp Compressor
+description: Compresses kelp into oil
+type: GenericCrafter
+size: 2
+outputLiquid: oil/1
+liquidCapacity: 10
+consumes: {
+    items: [
+      kelp: 2
+    ]
+}
+
+// Crafts 1nce every 1 seconds.
+craftTime: 60
+
+requirements: [
+aluminum/20
+sand/15
+]
+
+research: kelp-farm
+category: crafting
