@@ -4,7 +4,7 @@ type: GenericCrafter
 size: 2
 outputLiquid: water/1
 outputItem: salt/1
-liquidCapacity: 10
+liquidCapacity: 20
 consumes: {
     liquids: [
       saltwater/1
