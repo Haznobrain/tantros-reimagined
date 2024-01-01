@@ -16,6 +16,7 @@ weapons: [
   shootY: 3
   reload: 60
   range: 120
+  parentizeEffects: true
   bullet: {
     type: PointBulletType
     splashDamage: 25
