@@ -1,5 +1,5 @@
 name: Aggregate mixer
-description: "Mixes sand and limestone to make aggregate. Uses pyratite as heating."
+description: Mixes sand and limestone to make aggregate. Uses pyratite as heating.
 type: GenericCrafter
 size: 3
 outputItem: aggregate/5
