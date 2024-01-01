@@ -30,6 +30,7 @@ weapons: [
       colorFrom: ffa665
       colorTo: ffa665
       lenFrom: 16
+      useRotation: true
       }
     hitEffect: {
       type: WaveEffect
