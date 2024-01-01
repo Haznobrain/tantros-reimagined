@@ -1,0 +1,7 @@
+type: junction
+speed: 4
+requirements: [
+    aluminium/3
+  ]
+description: Lets items cross over eachother.
+name: Pressure Junction
