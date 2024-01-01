@@ -1,0 +1,10 @@
+type: wall
+health: 1920
+size: 2
+name: Aluminium wall
+description: a larger variant of the aluminium wall that blocks ennemy projectiles.
+requirements: [
+  aluminium/16
+  limestone/8
+]
+category: defense
