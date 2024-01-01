@@ -39,7 +39,8 @@ weapons: [
     }
     fragBullet: {
       type: LightningBulletType
-      length: 3
+      lightningLength: 3
+      lightningColor: ffa665
       damage: 3
       }
       }
