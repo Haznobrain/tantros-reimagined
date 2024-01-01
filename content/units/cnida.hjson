@@ -21,6 +21,7 @@ weapons: [
     splashDamage: 25
     splashDamageRadius: 16
     fragBullets: 4
+    trailRotation: true
     trailEffect: {
       type: ParticleEffect
       line: true
