@@ -8,7 +8,7 @@ consumes: {
       items: [
         sand/6
         aluminium/2
-        item-salt/4
+        salt/4
       ]
 }
 outputItem: pyratite/3
