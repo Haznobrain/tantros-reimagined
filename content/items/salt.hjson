@@ -1,0 +1,9 @@
+name: Salt
+description: White substance with a sand like texture.
+color: ffffffff
+healthScaling: 0.02
+hardness: 2
+explosiveness: 0
+flammabality: 0
+charge: 0
+radioactivity: 0
