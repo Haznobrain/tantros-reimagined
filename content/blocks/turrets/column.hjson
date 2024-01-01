@@ -21,8 +21,8 @@ ammoTypes: {
         cone: 0
         lightScl: 0
           }
-    damage: 45
-    splashDamage: 25
+    splashDamage: 45
+    splashDamageRadius: 40
     status: unmoving
     statusDuration: 20
     collidesAir: true
