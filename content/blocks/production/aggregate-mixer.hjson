@@ -2,13 +2,13 @@ name: Aggregate mixer
 description: "Mixes sand and limestone to make aggregate. Uses pyratite as heating."
 type: GenericCrafter
 size: 3
-outputItem: aggregate/3
+outputItem: aggregate/5
 itemCapacity: 20
 consumes: {
     items: [
-      sand/1
-      limestone/1
-      pyratite/1
+      sand/6
+      limestone/8
+      pyratite/2
     ]
   power: 1
 }
