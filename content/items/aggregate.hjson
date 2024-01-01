@@ -1,0 +1,8 @@
+name: Aggregate
+description: Strong hard substance.
+color: 999999ff
+healthScaling: 0.02
+explosiveness: 0
+flammabality: 0
+charge: 0
+radioactivity: 0
