@@ -1,19 +1,22 @@
-type: GenericCrafter
 name: Kelp Farm
-description: Grows kelp for production of oil.
-itemCapacity: 15
+description: Grows kelp for use in oil production
+type: GenericCrafter
 size: 2
+outputItem: kelp/4
+liquidCapacity: 3
 consumes: {
-    power: 0.5
-      liquids: [
-        water/1
-      ]
+    liquid:{
+        liquid:water
+        amount:1
+    }
 }
-outputItem: kelp/1
-craftTime: 60
+
+// Crafts 1nce every 2 seconds.
+craftTime: 120
 
 requirements: [
-    aluminium/20
-    limestone/20
+aluminium/10
+limestone/5
 ]
+
 category: crafting
