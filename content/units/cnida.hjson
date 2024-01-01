@@ -1,1 +1,47 @@
-
+type: mech
+name: Cnida
+health: 700
+armor: 3
+description: Shoots point laser beams at ennemy targets.
+speed: 0.5
+hitSize: 12
+weapons: [
+  {
+  name: cnida-gun
+  x: 0
+  y: 0
+  shootX: 8
+  top: false
+  shootSound: railgun
+  shootY: 3
+  reload: 60
+  range: 120
+  bullet: {
+    type: PointLaserBulletType
+    splashDamage: 25
+    splashDamageRadius: 16
+    fragBullets: 4
+    trailEffect: {
+      type: ParticleEffect
+      line: true
+      particles: 1
+      cone: 0
+      length: 0
+      colorFrom: ffa665
+      colorTo: ffa665
+      lenFrom: 16
+      }
+    hitEffect: {
+      type: WaveEffect
+      colorFrom: ffa665
+      colorTo: ffa665
+      sizeTo: 16
+    }
+    fragBullet: {
+      type: LightningBulletType
+      length: 3
+      damage: 3
+      }
+      }
+}
+]
