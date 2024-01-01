@@ -3,6 +3,7 @@ description: Separates salt from saltwater
 type: GenericCrafter
 size: 2
 outputLiquid: water/1
+outputItem: salt/1
 liquidCapacity: 20
 consumes: {
     liquids: [
@@ -11,7 +12,7 @@ consumes: {
 }
 
 // Crafts 1nce every 1 seconds.
-craftTime: 2
+craftTime: 60
 
 requirements: [
 aluminium/10
