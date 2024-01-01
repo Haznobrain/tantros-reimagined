@@ -1,0 +1,37 @@
+name: Aggregate mixer
+description: "Mixes sand and limestone to make aggregate. Uses pyratite as heating."
+type: GenericCrafter
+size: 3
+outputItem: aggregate/3
+itemCapacity: 20
+consumes: {
+    items: [
+      sand/1
+      limestone/1
+      pyratite/1
+    ]
+  power: 1
+}
+
+// Crafts 1nce per second.
+craftTime: 480
+
+// Makes a nice flamey effect.
+// drawer: {
+//     type: drawMulti
+//     drawers: [
+//         {
+//             type:DrawDefault
+//         }
+//         {
+//             type:DrawFlame
+//         }
+//     ]
+// }
+
+requirements: [
+aluminium/10
+limestone/10
+]
+
+category: crafting
