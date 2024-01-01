@@ -17,7 +17,7 @@ weapons: [
   reload: 60
   range: 120
   bullet: {
-    type: PointLaserBulletType
+    type: PointBulletType
     splashDamage: 25
     splashDamageRadius: 16
     fragBullets: 4
