@@ -1,0 +1,5 @@
+type: wall
+health: 480
+size: 1
+name: Aluminium wall
+description: a small wall that blocks ennemy projectiles.
