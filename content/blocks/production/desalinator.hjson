@@ -1,0 +1,23 @@
+name: Desalinator
+description: Separates salt from saltwater
+type: GenericCrafter
+size: 2
+outputLiquid: water/1
+outputItem: salt/1
+liquidCapacity: 10
+consumes: {
+    liquids: [
+      saltwater/1
+    ]
+}
+
+// Crafts 1nce every 1 seconds.
+craftTime: 60
+
+requirements: [
+aluminium/10
+limestone/10
+]
+
+research: intake-valve
+category: crafting
