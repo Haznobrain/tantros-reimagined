@@ -3,6 +3,7 @@ description: Lets saltwater into pipes.
 type: SolidPump
 size: 1
 result: saltwater
+pumpAmount: 1
 
 requirements: [
 aluminium/15
