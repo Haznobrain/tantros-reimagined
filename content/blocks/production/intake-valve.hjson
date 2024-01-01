@@ -1,0 +1,11 @@
+name: Intake Valse
+description: Lets saltwater into pipes.
+type: SolidPump
+size: 1
+result: saltwater
+
+requirements: [
+aluminium/15
+]
+
+category: crafting
