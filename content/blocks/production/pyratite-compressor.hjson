@@ -19,8 +19,8 @@ drawer: {
         {
         type: DrawPistons
         lenOffset: 0
-        sinScl: 4
-        sinMag: 2
+        sinScl: 3
+        sinMag: 1.5
         }
         {
         type: DrawDefault
