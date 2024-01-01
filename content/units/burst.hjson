@@ -6,12 +6,16 @@ engineColor: 6b85d4
 health: 110
 speed: 2.13
 description: A small unit wich explodes on its targets, dealing high area damage.
+name: Burst
 weapons: [
   {
   name: burst
   reload: 60
   range: 80
   shootCone: 360
+  x: 0
+  recoil: 0
+  mirror: false
   bullet: {
     type: ExplosionBulletType
     splashDamage: 65
