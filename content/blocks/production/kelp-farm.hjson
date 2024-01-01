@@ -3,11 +3,11 @@ description: Grows kelp for use in oil production
 type: GenericCrafter
 size: 2
 outputItem: kelp/4
-liquidCapacity: 3
+liquidCapacity: 100
 consumes: {
     liquid:{
         liquid:water
-        amount:1
+        amount:0.5
     }
 }
 
@@ -15,8 +15,8 @@ consumes: {
 craftTime: 120
 
 requirements: [
-aluminium/10
-limestone/5
+aluminium/25
+limestone/15
 ]
 drawer: {
     type: DrawMulti
