@@ -4,6 +4,7 @@ health: 170
 armor: 1
 description: Shoots small sapping bullets at ennemy targets.
 speed: 0.5
+hitSize: 9
 weapons: [
   {
   name: arhyn-gun
