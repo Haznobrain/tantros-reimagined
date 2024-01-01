@@ -1,3 +1,29 @@
 type: GenericCrafter
 name: Pyratite compressor
-description: mixes sand, aluminium, and limestone to create 
+description: mixes sand, aluminium, and salt to create pyratite
+consumes: {
+    power: 2
+      items: [
+        sand/6
+        aluminium/2
+        item-salt/4
+      ]
+}
+outputItem: pyratite/3
+craftTime: 180
+drawer: {
+    type: DrawMulti
+    drawers: [
+        {
+        type: DrawPistons
+        }
+        {
+        type: DrawDefault
+        }
+]
+}
+requirements: [
+    aluminium/60
+    limestone/40
+    salt/10
+]
