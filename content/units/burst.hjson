@@ -16,6 +16,7 @@ weapons: [
   x: 0
   recoil: 0
   mirror: false
+shootOnDeath: true
   bullet: {
     type: ExplosionBulletType
     splashDamage: 65
