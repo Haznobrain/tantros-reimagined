@@ -13,8 +13,8 @@ consumes: {
   power: 1
 }
 
-// Crafts 1nce per second.
-craftTime: 480
+// Crafts 2.5nce per second.
+craftTime: 240
 
 // Makes a nice flamey effect.
 // drawer: {
