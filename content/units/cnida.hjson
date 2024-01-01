@@ -13,7 +13,7 @@ weapons: [
   shootX: 8
   top: false
   shootSound: bolt
-  shootY: 3
+  shootY: 5
   reload: 15
   range: 120
   parentizeEffects: true
@@ -23,6 +23,7 @@ weapons: [
     fragBullets: 4
     colors: [ffa665,ffa665,ffa665]
     pierceCap: 1
+    width: 1
     hitEffect: {
       type: WaveEffect
       colorFrom: ffa665
