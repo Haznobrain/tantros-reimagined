@@ -18,12 +18,34 @@ weapons: [
   range: 120
   parentizeEffects: true
   bullet: {
-    type: PointBulletType
-    splashDamage: 25
-    splashDamageRadius: 16
+    type: RailBulletType
+    Damage: 25
     fragBullets: 4
     trailRotation: true
-    trailEffect: {
+    length: 120
+    lineEffect: {
+      type: ParticleEffect
+      line: true
+      particles: 1
+      cone: 0
+      length: 0
+      colorFrom: ffa665
+      colorTo: ffa665
+      lenFrom: 16
+      useRotation: true
+      }
+      endEffect: {
+      type: ParticleEffect
+      line: true
+      particles: 1
+      cone: 0
+      length: 0
+      colorFrom: ffa665
+      colorTo: ffa665
+      lenFrom: 16
+      useRotation: true
+      }
+    pointEffect: {
       type: ParticleEffect
       line: true
       particles: 1
