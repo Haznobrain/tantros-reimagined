@@ -1,4 +1,4 @@
-name: Intake Valse
+name: Intake Valve
 description: Lets saltwater into pipes.
 type: SolidPump
 size: 1
@@ -9,4 +9,4 @@ requirements: [
 aluminium/15
 ]
 
-category: crafting
+category: production
