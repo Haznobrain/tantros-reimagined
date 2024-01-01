@@ -30,8 +30,8 @@ craftTime: 480
 // }
 
 requirements: [
-aluminium/10
-limestone/10
+aluminium/85
+limestone/60
 ]
 
 category: crafting
