@@ -14,7 +14,7 @@ consumes: {
 craftTime: 60
 
 requirements: [
-aluminum/20
+aluminium/20
 sand/15
 ]
 
