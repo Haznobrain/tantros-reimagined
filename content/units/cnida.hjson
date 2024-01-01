@@ -17,14 +17,30 @@ weapons: [
   reload: 15
   range: 120
   parentizeEffects: true
+trailRotation: true
   bullet: {
     type: RailBulletType
     Damage: 25
     fragBullets: 4
     trailRotation: true
+    parentizeEffects: true
     length: 120
-    lineEffect: railTrail
-    pointEffect: railTrail
+    lineEffect: {
+      type: ParticleEffect
+      line: true
+      lenFrom: 16
+      length: 0
+      particles: 1
+      lifetime: 12
+    }
+    pointEffect: {
+      type: ParticleEffect
+      line: true
+      lenFrom: 16
+      length: 0
+      particles: 1
+      lifetime: 12
+    }
     hitEffect: {
       type: WaveEffect
       colorFrom: ffa665
