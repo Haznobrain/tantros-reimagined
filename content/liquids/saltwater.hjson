@@ -1,0 +1,12 @@
+name: Saltwater
+description: Salty water. Salt must be removed before use.
+gas: false
+color: 34b7eb
+flammability: 0
+temperature: 0.50
+heatCapacity: 0.5
+viscosity: 0.6
+explosiveness: 0
+research: water
+effect: wet
+coolant: false
