@@ -20,3 +20,17 @@ sand/15
 
 research: kelp-farm
 category: crafting
+drawer: {
+    type: DrawMulti
+    drawers: [
+        {
+        type: DrawPistons
+        lenOffset: 0
+        sinScl: 3
+        sinMag: 1.5
+        }
+        {
+        type: DrawDefault
+        }
+]
+}
