@@ -3,8 +3,8 @@ planet: tantrosmod-tantroz
 sector: 10
 description: A sector where a disfunctional core was abandoned by its team. Perfect place to start.
 difficulty: 1
-allowLaunchLoadout: false
-addStartingItems: false
+addStartingItems: true
+startWaveTimeMultiplier: 3
 overrideLaunchDefaults: true
-research: core-submerged
 captureWave: 10
+alwaysUnlocked: true
