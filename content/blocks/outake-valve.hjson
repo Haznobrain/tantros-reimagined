@@ -1,0 +1,9 @@
+name: Outake Valve
+description: Releases liquids into the environment
+type: LiquidVoid
+
+requirements: [
+  aluminium: 15
+]
+
+category: liquids
