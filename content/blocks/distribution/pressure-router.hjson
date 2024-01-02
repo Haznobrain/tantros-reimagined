@@ -5,3 +5,4 @@ requirements: [
   ]
   name: Pressure router
   description: Splits items equally beetween 3 directions. Only accepts input from the back.
+research: pressure-duct
