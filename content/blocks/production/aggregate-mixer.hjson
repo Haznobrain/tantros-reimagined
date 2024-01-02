@@ -17,17 +17,21 @@ consumes: {
 craftTime: 240
 
 // Makes a nice flamey effect.
-// drawer: {
-//     type: drawMulti
-//     drawers: [
-//         {
-//             type:DrawDefault
-//         }
-//         {
-//             type:DrawFlame
-//         }
-//     ]
-// }
+ drawer: {
+  type: drawMulti
+  drawers: [
+    {
+        type: DrawRegion
+        suffix: -bottom
+    }
+     {
+         type:DrawDefault
+      }
+      {
+          type:DrawFlame
+       }
+    ]
+ }
 
 requirements: [
 aluminium/85
