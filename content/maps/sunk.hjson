@@ -7,3 +7,4 @@ allowLaunchLoadout: false
 addStartingItems: false
 overrideLaunchDefaults: true
 research: core-submerged
+captureWave: 10
