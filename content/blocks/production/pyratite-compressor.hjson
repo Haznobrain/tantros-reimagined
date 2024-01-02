@@ -28,6 +28,7 @@ drawer: {
         type: DrawDefault
         }
 ]
+research: kelp-compressor
 }
 requirements: [
     aluminium/60
