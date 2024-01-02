@@ -1,2 +1,9 @@
 localizedName: Sunk
 planet: tantrosmod-tantros
+sector: 10
+description: A sector where a disfunctional core was abandoned by its team. Perfect place to start.
+difficulty: 1
+allowLaunchLoadout: false
+addStartingItems: false
+overrideLaunchDefaults: true
+research: core-submerged
