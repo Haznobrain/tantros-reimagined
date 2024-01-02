@@ -18,7 +18,7 @@ weapons: [
   mirror: true
   range: 120
   bullet: {
-    type: BasicBuleltType
+    type: BasicBulletType
     weaveScale: 3
     weaveMag: 3
     speed: 4
