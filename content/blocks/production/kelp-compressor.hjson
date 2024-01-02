@@ -24,6 +24,9 @@ drawer: {
     type: DrawMulti
     drawers: [
         {
+        type: DrawRegion
+        suffix: -bottom
+        {
         type: DrawPistons
         lenOffset: -1
         sinScl: 2
