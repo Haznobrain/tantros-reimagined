@@ -5,3 +5,9 @@ requirements: [
   ]
   description: pushes fluids along through pressurized fluids extracted from its environment.
   name: Pressure duct
+research: {
+    parent: core-submerged
+    requirements: [
+        aluminium/1
+    ]
+}
