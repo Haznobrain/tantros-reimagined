@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Pyratite compressor
-description: mixes sand, aluminium, and salt to create pyratite
+description: mixes sand, aluminium, and oil to create pyratite
 itemCapacity: 30
 size: 2
 consumes: {
@@ -8,8 +8,10 @@ consumes: {
       items: [
         sand/6
         aluminium/2
-        salt/4
       ]
+    liquids: [
+    oil/0.5
+    ]
 }
 outputItem: pyratite/3
 craftTime: 180
