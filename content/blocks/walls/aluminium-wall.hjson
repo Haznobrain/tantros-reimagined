@@ -8,3 +8,9 @@ requirements: [
   limestone/2
 ]
 category: defense
+research: {
+  parent: dartle
+  requirements: [
+    aluminium/40
+]
+}
