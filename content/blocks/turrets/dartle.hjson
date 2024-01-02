@@ -31,4 +31,9 @@ ammoTypes: {
         aluminium/25
         limestone/10
 ]
-    
+research: {
+  parent: core-submerged
+  requirements: [
+    aluminium/10
+  ]
+}
