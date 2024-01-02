@@ -28,8 +28,8 @@ drawer: {
         type: DrawDefault
         }
 ]
-research: kelp-compressor
 }
+research: kelp-compressor
 requirements: [
     aluminium/60
     limestone/40
