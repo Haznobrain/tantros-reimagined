@@ -31,7 +31,7 @@ drawer: {
         {
         type: DrawLiquidTile
         suffix: -top
-        drawLiquid: salt-water
+        drawLiquid: saltwater
         }
         {
         type: DrawRegion
