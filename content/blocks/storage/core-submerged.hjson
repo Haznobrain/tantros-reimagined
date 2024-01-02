@@ -7,3 +7,9 @@ itemCapacity: 3500
 size: 3
 unitCapModifier: 10
 unitType: eugleno
+alwaysUnlocked: true
+research: {
+  root: true
+  name: Tantros
+  requiresUnlock: false
+}
