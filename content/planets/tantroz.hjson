@@ -1,5 +1,6 @@
 parent: sun
 radius: 2
+name: tantros
 camRadius: 1
 orbitRadius: 90
 orbitOffset: 210
