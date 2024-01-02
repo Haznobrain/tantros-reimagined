@@ -26,6 +26,7 @@ drawer: {
         {
         type: DrawRegion
         suffix: -bottom
+        }
         {
         type: DrawPistons
         lenOffset: -1
