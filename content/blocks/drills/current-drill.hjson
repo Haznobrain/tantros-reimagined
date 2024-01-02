@@ -9,3 +9,9 @@ requirements: [
   aluminium/30
 ]
 category: production
+research: {
+  parent: core-submerged
+  requirements: [
+    aluminium/1
+]
+}
