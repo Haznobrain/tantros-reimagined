@@ -9,7 +9,8 @@ unitCapModifier: 10
 unitType: eugleno
 alwaysUnlocked: true
 research: {
-  root: true
-  name: Tantros
-  requiresUnlock: false
+    planet: tantroz
+    root: true
+    name: Tantros
+    requiresUnlock: false
 }
