@@ -10,7 +10,9 @@ tidalLock: false
 localizedName: Tantros
 lightSrcTo: 0.5
 lightDstFrom: 0.2
-generator: ErekirPlanetGenerator
+generator: {
+    env: 5
+}
 allowLaunchToNumbered: false
 visible: true
 hasAtmosphere: true
