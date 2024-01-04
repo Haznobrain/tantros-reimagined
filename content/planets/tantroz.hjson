@@ -1,99 +1,69 @@
-parent: sun
-radius: 2
-name: tantroz
-camRadius: 1
-orbitRadius: 90
-orbitOffset: 210
-type: planet
-landCloudColor: 3d93e5
-tidalLock: false
-localizedName: Tantros
-lightSrcTo: 0.5
-lightDstFrom: 0.2
-generator: {
-    env: 5
+    generator: "PlanetGenerator",
+//stolen code goes brrrrr
+    parent: "sun",
+    iconColor: 003e83,
+    orbitRadius: 90,
+    hasAtmosphere: true,
+    name: tantroz
+    LocalizedName: tantros
+    updateLighting: false,
+    atmosphereRadIn: 0.01,
+    atmosphereRadOut: 0.3,
+    atmosphereColor: 003e83,
+    drawOrbit: true,
+    accessible: true,
+    alwaysUnlocked: true,
+    defaultCore: "core-submerged",
+    sectorSeed: 69,
+    startSector: 10,
+    sectorSize: 1,
+    clearSectorOnLose: true,
+    allowSectorInvasion: false,
+	allowLaunchToNumbered: false,
+    radius: 1,
+    hiddenItems: [
+        "copper",
+        "lead",
+        "scrap",
+        "graphite",
+        "coal",
+        "titanium",
+        "plastanium",
+        "phase-fabric",
+        "surge-alloy",
+        "spore-pod",
+        "sand",
+        "metaglass",
+        "beryllium",
+        "oxide",
+        "tungsten",
+        "carbide",
+        "fissile-matter",
+        "dormant-cyst"
+    ],
+cloudMesh: {
+  type: HexSkyMesh
+  planet: tantroz
+  seed: 2
+  speed: 3
+  radius: 0.05
+  divisions: 5
+  color: 2967ac
+  octaves: 2
+  persistence: 1
+  scl: 2
+  thresh: 0.45
 }
-allowLaunchToNumbered: false
-visible: true
-hasAtmosphere: true
-bloom: true
-atmosphereRadIn: 0.02
-atmosphereRadOut: 0.3
-atmosphereColor: 92d4ff
-accessible: true
-defaultCore: tantrosmod-core-submerged
-startSector: 10
-sectorSize: 3.1
-alwaysUnlocked: true
-totalRadius: 2.6
-itemWhitelist: [
-aluminium,
-limestone,
-kelp,
-silicon,
-pyratite,
-blast-compound,
-aggregate,
-salt
-]
-mesh: [
-  {
-    type: NoiseMesh
-    divisions: 5
-    radius: 1.9955
-    color1: 095f98
-    color2: 225576
-    octaves: 4.6
-    persistence: 0.9
-    scale: 0.7
-    mag: 1.1
-    coct: 4
-    cper: 1
-    cscl: 1.8
-    cthresh: 1
-  }
-  {
-    type: HexSkyMesh
-    radius: 1
-    divisions: 5
-    speed: -4
-    color: 095f98
-    octaves: 1
-    persistence: 1
-    scl: 0.9
-    thresh: 1
-  }
-  {
-    type: HexSkyMesh
-    radius: 1.1
-    divisions: 5
-    speed: 2.7
-    color: 225576
-    octaves: 1
-    persistence: 1
-    scl: 1
-    thresh: 0.5
-  }
-  {
-    type: HexSkyMesh
-    speed: 3.2
-    divisions: 5
-    radius: 1.15
-    color: 2d7bae
-    octaves: 3
-    persistence: 0.5
-    scl: 1
-    thresh: 0.45
-  }
-  {
-    type: HexSkyMesh
-    speed: 2.3
-    divisions: 5
-    radius: 1.05
-    color: 5399c7
-    octaves: 3
-    persistence: 0.5
-    scl: 1
-    thresh: 0.6
-  }
-]
+    "mesh": {
+      "type": "NoiseMesh",
+      "planet": "tantroz",
+      "seed": 69,
+      "color1": " 438ddf",
+      "color2": "2c69ae",
+      "divisions": 4,
+      "radius": 0.8,
+      "octaves": 8,
+      "persistence": 1,
+      "scale": 2,
+      "mag": 1
+    }
