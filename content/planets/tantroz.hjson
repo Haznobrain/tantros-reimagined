@@ -4,8 +4,8 @@
     iconColor: 003e83,
     orbitRadius: 90,
     hasAtmosphere: true,
-    name: tantroz
-    LocalizedName: tantros
+    name: tantroz,
+    LocalizedName: tantros,
     updateLighting: false,
     atmosphereRadIn: 0.01,
     atmosphereRadOut: 0.3,
