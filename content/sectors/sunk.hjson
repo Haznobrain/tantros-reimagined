@@ -1,10 +1,8 @@
-localizedName: Sunk
-planet: tantroz
+planet: Tantros
 sector: 10
-description: A sector where a disfunctional core was abandoned by its team. Perfect place to start.
+research: {
+    parent: core-submerged
+}
 difficulty: 1
-addStartingItems: true
-startWaveTimeMultiplier: 3
-overrideLaunchDefaults: true
-captureWave: 10
 alwaysUnlocked: true
+overrideLaunchDefaults: true
