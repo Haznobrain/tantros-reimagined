@@ -19,7 +19,11 @@ weapons: [
   mirror: true
 shootOnDeath: true
   y: 2
+  shootEffect: none
   bullet: {
+    shrinkY: 0
+    height: 8
+    width: 8
     type: BombBulletType
     splashDamage: 35
     splashDamageRadius: 80
