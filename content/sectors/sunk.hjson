@@ -6,3 +6,4 @@ research: {
 difficulty: 1
 alwaysUnlocked: true
 overrideLaunchDefaults: true
+captureWave: 10
