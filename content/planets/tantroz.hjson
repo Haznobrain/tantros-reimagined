@@ -1,11 +1,8 @@
     generator: "PlanetGenerator",
-//stolen code goes brrrrr
     parent: "sun",
     iconColor: 003e83,
     orbitRadius: 90,
     hasAtmosphere: true,
-    name: tantroz,
-    LocalizedName: tantros,
     updateLighting: false,
     atmosphereRadIn: 0.01,
     atmosphereRadOut: 0.3,
@@ -19,7 +16,7 @@
     sectorSize: 1,
     clearSectorOnLose: true,
     allowSectorInvasion: false,
-	allowLaunchToNumbered: false,
+    allowLaunchToNumbered: false,
     radius: 1,
     hiddenItems: [
         "copper",
@@ -28,11 +25,15 @@
         "graphite",
         "coal",
         "titanium",
+        "thorium",
+        "silicon",
         "plastanium",
         "phase-fabric",
         "surge-alloy",
         "spore-pod",
         "sand",
+        "blast-compound",
+        "pyratite",
         "metaglass",
         "beryllium",
         "oxide",
@@ -41,29 +42,29 @@
         "fissile-matter",
         "dormant-cyst"
     ],
-cloudMesh: {
-  type: HexSkyMesh
-  planet: tantroz
-  seed: 2
-  speed: 3
-  radius: 0.05
-  divisions: 5
-  color: 2967ac
-  octaves: 2
-  persistence: 1
-  scl: 2
-  thresh: 0.45
-}
-    "mesh": {
-      "type": "NoiseMesh",
-      "planet": "tantroz",
-      "seed": 69,
-      "color1": " 438ddf",
-      "color2": "2c69ae",
-      "divisions": 4,
-      "radius": 0.8,
-      "octaves": 8,
-      "persistence": 1,
-      "scale": 2,
-      "mag": 1
+    cloudMesh: {
+         type: HexSkyMesh
+         planet: tantroz
+         seed: 2
+         speed: 3
+         radius: 0.05
+         divisions: 5
+         color: 2967ac
+         octaves: 2
+         persistence: 1
+        scl: 2
+        thresh: 0.45
+    }
+    mesh: {
+        type: "NoiseMesh",
+        planet: "tantroz", 
+        seed: 69,
+        divisions: 4,
+        radius: 0.8,
+        color1: "438ddf", 
+        color2: "2c69ae",
+        octaves: 8,
+        persistence: 1, 
+        scale: 2,
+        mag: 1
     }
