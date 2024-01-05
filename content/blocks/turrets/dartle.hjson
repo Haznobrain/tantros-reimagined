@@ -26,6 +26,27 @@ ammoTypes: {
       colorTo: 6d6d6d
     }
 }
+salt: {
+    type: BasicBulletType
+    sprite: mine-bullet
+    backSprite: large-bomb-back
+    damage: 24
+    lifetime: 16
+    speed: 6
+    shootEffect: {
+      type: ParticleEffect
+      line: true
+      cone: 10
+      length: 12
+    }
+  fragBullets: 5
+  fragBullet: {
+    type: basicBulletType
+    damage: 3
+    lifetime: 12
+    speed: 3
+}
+}
       }
       requirements: [
         aluminium/25
