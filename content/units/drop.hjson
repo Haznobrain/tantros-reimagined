@@ -1,0 +1,28 @@
+type: flying
+flying: true
+engineOffset: 6
+engineSize: 3
+engineColor: 6b85d4
+health: 110
+speed: 1.85
+description: A medium-sized unit wich drops depth charges on submarine targets
+name: Burst
+circleTarget: true
+weapons: [
+  {
+  minShootVelocity: 0.2
+  reload: 30
+  range: 80
+  shootCone: 360
+  x: 6
+  recoil: 0
+  mirror: true
+shootOnDeath: true
+  y: 2
+  bullet: {
+    type: BombBulletType
+    splashDamage: 35
+    splashDamageRadius: 80
+      }
+}
+]
