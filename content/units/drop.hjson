@@ -7,6 +7,7 @@ health: 750
 speed: 1.85
 description: A medium-sized unit wich drops depth charges on submarine targets
 name: Drop
+faceTarget: false
 circleTarget: true
 weapons: [
   {
@@ -19,7 +20,10 @@ weapons: [
   mirror: true
 shootOnDeath: true
   y: 2
-  shootEffect: none
+  shootEffect: {
+    type: ParticleEffect
+    particles: 0
+}
   bullet: {
     shrinkY: 0
     height: 8
