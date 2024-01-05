@@ -6,7 +6,7 @@ engineColor: 6b85d4
 health: 750
 speed: 1.85
 description: A medium-sized unit wich drops depth charges on submarine targets
-name: Burst
+name: Drop
 circleTarget: true
 weapons: [
   {
@@ -25,8 +25,11 @@ shootOnDeath: true
     height: 8
     width: 8
     type: BombBulletType
+    spin: 3
+    hitSound: dullExplosion
     splashDamage: 35
     splashDamageRadius: 80
+    hitEffect: MassiveExplosion
       }
 }
 ]
