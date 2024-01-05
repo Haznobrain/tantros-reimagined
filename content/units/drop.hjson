@@ -29,7 +29,7 @@ shootOnDeath: true
     hitSound: dullExplosion
     splashDamage: 35
     splashDamageRadius: 80
-    hitEffect: MassiveExplosion
+    hitEffect: blastExplosion
       }
 }
 ]
