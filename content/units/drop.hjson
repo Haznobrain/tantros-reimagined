@@ -1,9 +1,9 @@
 type: flying
 flying: true
-engineOffset: 6
+engineOffset: 10
 engineSize: 3
 engineColor: 6b85d4
-health: 110
+health: 750
 speed: 1.85
 description: A medium-sized unit wich drops depth charges on submarine targets
 name: Burst
