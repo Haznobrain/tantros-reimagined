@@ -27,6 +27,10 @@ shootOnDeath: true
     particles: 0
 }
   bullet: {
+  shootEffect: {
+    type: ParticleEffect
+    particles: 0
+}
     shrinkY: 0
     height: 8
     width: 8
