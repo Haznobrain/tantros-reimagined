@@ -1,0 +1,12 @@
+name: Brine
+description: Water hypersaturated with salt. Extremely dangerous to organic life. Moderatetly anoyying to units.
+gas: false
+color: 9be8cf
+flammability: 0
+temperature: 0.50
+heatCapacity: 0.7
+viscosity: 0.8
+explosiveness: 0
+research: water
+effect: salinated
+coolant: true
