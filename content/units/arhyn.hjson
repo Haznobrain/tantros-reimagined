@@ -12,7 +12,7 @@ weapons: [
   y: 1.5
   top: false
   shootSound: sap
-  shootY: 0
+  shootY: 3
   reload: 45
   range: 64
   bullet: {
