@@ -23,6 +23,7 @@ weapons: [
     colors: [ffa665,ffa665,ffa665]
     pierceCap: 1
     width: 1
+    despawnHit: false
     hitEffect: {
       type: WaveEffect
       colorFrom: ffa665
