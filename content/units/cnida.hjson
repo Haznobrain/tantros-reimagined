@@ -8,7 +8,7 @@ hitSize: 12
 weapons: [
   {
   name: cnida-gun
-  x: 7
+  x: 8
   y: -1
   top: false
   shootSound: bolt
