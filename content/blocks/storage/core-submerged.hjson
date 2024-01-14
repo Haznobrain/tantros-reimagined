@@ -14,3 +14,7 @@ research: {
     name: Tantros
     requiresUnlock: false
 }
+requirements: [
+    aluminium/600
+    limestone/600
+]
