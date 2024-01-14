@@ -8,19 +8,18 @@ hitSize: 9
 weapons: [
   {
   name: arhyn-gun
-  x: 0
-  y: 0
-  shootX: 7
+  x: 5
+  y: 1.5
   top: false
   shootSound: sap
-  shootY: 1
+  shootY: 0
   reload: 45
   range: 64
   bullet: {
     type: SapBulletType
     length: 64
     color: ffd37f
-    damage: 20
+    damage: 30
     knockback: -0.5
       }
 }
