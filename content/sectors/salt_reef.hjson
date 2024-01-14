@@ -1,0 +1,10 @@
+planet: tantroz
+sector: 16
+research: {
+    parent: sunk
+}
+localizedName: Salt reef
+difficulty: 2
+alwaysUnlocked: true
+overrideLaunchDefaults: true
+captureWave: 10
