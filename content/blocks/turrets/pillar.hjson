@@ -54,7 +54,7 @@ shootType: {
     y: 0
     x: 0
     moveY: -3
-    moveX: 2
+    moveX: 1
       }
 ]
       }
