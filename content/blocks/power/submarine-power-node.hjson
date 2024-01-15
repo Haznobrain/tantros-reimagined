@@ -1,0 +1,9 @@
+type: PowerNode
+size: 1
+laserRange: 8
+maxNodes: 6
+requirements: [
+    aluminium/5
+    salt/2
+  ]
+  research: molten-salt-generator
