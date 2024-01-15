@@ -1,7 +1,7 @@
 type: PowerTurret
-name: Column
+name: Pillar
 description: Fires a laser beam that slows down ennemy air targets.
-reload: 45
+continuous: true
 shootSound: none
 loopSound: laserBeam
 recoil: 0
