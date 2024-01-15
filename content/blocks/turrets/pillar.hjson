@@ -49,6 +49,7 @@ shootType: {
     moveX: 0
     }
     {
+    heatProgress: warmup
     heatColor: ffc690
     type: RegionPart
     suffix: -barrel
