@@ -13,3 +13,4 @@ requirements: [
   limestone/90
   salt/50
 ]
+category: power
