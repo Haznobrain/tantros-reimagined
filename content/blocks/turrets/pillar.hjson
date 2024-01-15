@@ -17,7 +17,7 @@ range: 304
       }
 shootType: {
     type: PointLaserBulletType
-    Damage: 9.3
+    Damage: 11
     status: slow
     maxLength: 304
     statusDuration: 20
