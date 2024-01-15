@@ -7,3 +7,4 @@ requirements: [
     salt/2
   ]
   research: molten-salt-generator
+category: power
