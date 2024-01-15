@@ -3,7 +3,7 @@ name: Pillar
 description: Fires a laser beam that slows down ennemy air targets.
 continuous: true
 shootSound: none
-loopSound: laserBeam
+loopSound: laserbeam
 recoil: 0
 size: 3
 category: turret
