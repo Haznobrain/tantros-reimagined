@@ -1,4 +1,4 @@
-type: PowerTurret
+type: ContinuousTurret
 name: Pillar
 description: Fires a laser beam that slows down ennemy air targets.
 continuous: true
