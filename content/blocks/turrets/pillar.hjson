@@ -1,0 +1,60 @@
+type: PowerTurret
+name: Column
+description: Fires a laser beam that slows down ennemy air targets.
+reload: 45
+shootSound: none
+loopSound: laserBeam
+recoil: 0
+size: 2
+category: turret
+predictTarget: false
+range: 304
+  targetGround: false
+  targetAir: true
+  consumes: {
+    power: 8
+      }
+shootType: {
+    type: PointLaserBulletType
+    Damage: 9.3
+    status: slow
+    maxLength: 304
+    statusDuration: 20
+    collidesAir: true
+    collidesGround: false
+    shootEffect: {
+      type: ParticleEffect
+      line: true
+      cone: 10
+      length: 12
+      colorFrom: b6b6b6
+      colorTo: 6d6d6d
+      lifetime: 10
+}
+      }
+      requirements: [
+        aluminium/400
+        limestone/250
+        aggregate/120
+]
+      drawer: {
+        type: DrawTurret
+          parts: [
+{
+  type: RegionPart
+    suffix: -barrel-bottom
+    x: 0
+    y: 0
+    moveX: 0
+    }
+    {
+    type: RegionPart
+    suffix: -barrel
+    mirror: true
+    y: 0
+    x: 0
+    moveY: -3
+    moveX: 6
+      }
+]
+      }
