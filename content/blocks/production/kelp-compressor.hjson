@@ -5,6 +5,7 @@ size: 2
 outputLiquid: oil/1
 liquidCapacity: 10
 consumes: {
+    power: 1.2
     items: [
       kelp/2
     ]
@@ -15,7 +16,7 @@ craftTime: 60
 
 requirements: [
 aluminium/20
-sand/15
+salt/15
 ]
 
 research: kelp-farm
