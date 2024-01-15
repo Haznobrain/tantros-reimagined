@@ -5,7 +5,7 @@ reload: 45
 shootSound: none
 loopSound: laserBeam
 recoil: 0
-size: 2
+size: 3
 category: turret
 predictTarget: false
 range: 304
