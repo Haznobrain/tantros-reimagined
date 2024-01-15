@@ -5,6 +5,6 @@ PowerProduction: 6
 research: {
   parent: core-submerged
     objectives: [
-      salt-reef
+      salt_reef
     ]
     }
