@@ -1,0 +1,10 @@
+type: ThermalGenerator
+name: Molten Salt Generator
+description: Uses molten salt in a closed circuit to produce power from hot tiles.
+PowerProduction: 6
+research: {
+  parent: core-submerged
+    objectives: [
+      salt-reef
+    ]
+    }
