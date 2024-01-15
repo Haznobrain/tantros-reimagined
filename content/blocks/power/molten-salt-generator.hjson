@@ -8,3 +8,8 @@ research: {
       salt_reef
     ]
     }
+requirements: [
+  aluminium/150
+  limestone/90
+  salt/50
+]
