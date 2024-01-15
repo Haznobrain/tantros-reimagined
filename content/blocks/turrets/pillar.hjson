@@ -7,6 +7,7 @@ loopSound: laserbeam
 recoil: 0
 size: 3
 category: turret
+shootY: -2
 predictTarget: false
 range: 304
   targetGround: false
