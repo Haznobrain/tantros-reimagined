@@ -49,6 +49,7 @@ shootType: {
     moveX: 0
     }
     {
+    heatColor: ffc690
     type: RegionPart
     suffix: -barrel
     mirror: true
