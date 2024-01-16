@@ -2,7 +2,7 @@ type: mech
 name: Agnatha
 health: 2700
 armor: 6
-description: Shoots medium range point lasers at ennemy targets.
+description: Shoots medium range shrapnel at ennemy targets.
 speed: 0.42
 hitSize: 22
 weapons: [
@@ -14,15 +14,20 @@ weapons: [
   shootSound: none
   loopSound: laserBeam
   shootY: 12
-  continuous: true
-  alternate: false
-  alwaysContinuous: true
+  reload: 30
   range: 144
   aimChangeSpeed: 1.8
+  shoot: {
+    type: ShootSpread
+    spread: 10
+    shots: 2
+  }
   bullet: {
-    type: PointLaserBulletType
-    color: ffd37f
-    damage: 5
+    length: 144
+    width: 3
+    type: ShrapnelBulletType
+    toColor: ffd37f
+    damage: 30
       }
 }
 ]
