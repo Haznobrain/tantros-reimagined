@@ -8,7 +8,7 @@ hitSize: 22
 weapons: [
   {
   name: agnatha-gun
-  x: 40.25
+  x: 5
   y: -0.25
   top: false
   shootSound: none
