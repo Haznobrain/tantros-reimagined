@@ -21,7 +21,6 @@ weapons: [
   aimChangeSpeed: 1.8
   bullet: {
     type: PointLaserBulletType
-    maxLength: 144
     color: ffd37f
     damage: 5
       }
