@@ -1,0 +1,29 @@
+type: mech
+name: Agnatha
+health: 2700
+armor: 6
+description: Shoots medium range point lasers at ennemy targets.
+speed: 0.42
+hitSize: 22
+weapons: [
+  {
+  name: agnatha-gun
+  x: 40.25
+  y: -0.25
+  top: false
+  shootSound: none
+  loopSound: laserBeam
+  shootY: 12
+  continuous: true
+  alternate: false
+  alwaysContinuous: true
+  range: 144
+  bullet: {
+    type: PointLaserBulletType
+    maxLength: 144
+    color: ffd37f
+    damage: 1
+    knockback: 0.5
+      }
+}
+]
