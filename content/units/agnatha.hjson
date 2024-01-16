@@ -23,8 +23,18 @@ weapons: [
     shots: 2
   }
   bullet: {
+    shootEffect: {
+      type: ParticleEffect
+      length: 24
+      line: true
+      particles: 20
+      cone: 10
+      colorFrom: ffd37f
+      colorTo: ffd37f
+      lengthFrom: 6
+    }
     length: 144
-    width: 3
+    width: 20
     type: ShrapnelBulletType
     toColor: ffd37f
     damage: 30
