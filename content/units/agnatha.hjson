@@ -18,11 +18,12 @@ weapons: [
   alternate: false
   alwaysContinuous: true
   range: 144
+  aimChangeSpeed: 1.8
   bullet: {
     type: PointLaserBulletType
     maxLength: 144
     color: ffd37f
-    damage: 1
+    damage: 5
       }
 }
 ]
