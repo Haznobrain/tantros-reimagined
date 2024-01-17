@@ -65,5 +65,5 @@ aggregate: {
         aggregate/75
 ]
 research: {
-  parent: core-submerged
+  parent: column
 }
