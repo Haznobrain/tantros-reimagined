@@ -33,6 +33,7 @@ weapons: [
       colorTo: ffd37f
       lengthFrom: 6
     }
+    pierceCap: 2
     length: 144
     width: 20
     type: ShrapnelBulletType
