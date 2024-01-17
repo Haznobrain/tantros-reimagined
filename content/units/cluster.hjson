@@ -60,6 +60,7 @@ shootOnDeath: true
     splashDamage: 45
     splashDamageRadius: 26
     fragBullets: 6
+    collidesGround: true
     fragBullet: {
           type: MissileBulletType
           damage: 12
