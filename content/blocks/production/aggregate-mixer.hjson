@@ -37,5 +37,10 @@ requirements: [
 aluminium/85
 limestone/60
 ]
-research: pyratite-compressor
+research: {
+        parent: pyratite-compressor
+        objectives: [
+            surfaced-plateau
+            ]
+}
 category: crafting
