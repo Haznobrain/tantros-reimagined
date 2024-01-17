@@ -9,5 +9,5 @@ requirements: [
 ]
 category: defense
 research: {
-  parent: large-aluminium-wall
+  parent: aggregate-wall
 }
