@@ -1,7 +1,7 @@
 type: MendProjector
 reload: 75
 range: 80
-healPercent: 6.25
+healPercent: 2.875
 consume: {
     power: 3.2
       }
