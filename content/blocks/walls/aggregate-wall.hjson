@@ -11,6 +11,6 @@ category: defense
 research: {
   parent: large-aluminium-wall
   requirements: [
-    aluminium/40
+    aggregate/40
 ]
 }
