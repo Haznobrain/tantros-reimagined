@@ -12,9 +12,9 @@ size: 1
   ]
 research: {
     parent: core-submerged
-        objectives: {
+        objectives: [
           surfaced-plateau
-            }
+            ]
 }
 name: Reconcentrator
 description: Fixes allied structures by concentrating minerals from the water onto them.
