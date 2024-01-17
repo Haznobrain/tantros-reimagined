@@ -1,0 +1,13 @@
+type: wall
+health: 3360
+size: 2
+name: Large Aggregate wall
+description: a wall that blocks ennemy projectiles.
+requirements: [
+  aggregate/16
+  salt/8
+]
+category: defense
+research: {
+  parent: large-aluminium-wall
+}
