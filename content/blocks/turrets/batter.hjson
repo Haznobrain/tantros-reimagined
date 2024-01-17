@@ -2,7 +2,7 @@ type: ItemTurret
 name: Dartle
 description: Shoots a sequence of shrapnel, dealing large damage.
 reload: 75
-shootSound: shootSnap
+shootSound: shotgun
 recoil: 1
 size: 3
 category: turret
