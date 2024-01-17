@@ -11,8 +11,7 @@ weapons: [
   x: 10.25
   y: -0.25
   top: false
-  shootSound: none
-  loopSound: laserBeam
+  shootSound: shotgun
   shootY: 12
   reload: 30
   range: 144
