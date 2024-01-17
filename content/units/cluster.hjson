@@ -39,6 +39,15 @@ shootOnDeath: true
     colorTo: ffffff
     lifetime: 12
 }
+    trailEffect: {
+      particles: 1
+      colorFrom: ffa665
+      colorTo: ffa665
+      length: 0
+      lifetime: 90
+      sizeFrom: 3
+    }
+    trailChance: 0.03
     lifetime: 35.2
     speed: 5
     height: 8
