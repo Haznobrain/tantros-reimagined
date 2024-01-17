@@ -61,4 +61,11 @@ shootType: {
       }
 ]
       }
-research: batter
+research:{
+parent: batter
+requirements: [
+  aluminium/2500
+  limestone/2000
+  aggregate/2000
+]
+}
