@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Batter
 description: Shoots a sequence of shrapnel, dealing large damage.
-reload: 75
+reload: 60
 shootSound: shotgun
 recoil: 1
 size: 3
@@ -9,14 +9,14 @@ category: turret
 range: 184
 shoot: {
     shots: 5
-    shotDelay: 12
+    shotDelay: 3
     }
   inaccuracy: 20
 ammoTypes: {
   aluminium: {
     type: ShrapnelBulletType
     fromColor: 6d6d6d
-    toColor: 6d6d6d
+    toColor: ffffff
     damage: 25
     speed: 4
     shootEffect: {
@@ -30,8 +30,8 @@ ammoTypes: {
 }
 salt: {
     type: ShrapnelBulletType
-    fromColor: 6d6d6d
-    toColor: 6d6d6d
+    fromColor: ffffff
+    toColor: ffffff
     damage: 35
     speed: 4
     shootEffect: {
@@ -44,7 +44,7 @@ salt: {
 aggregate: {
         type: ShrapnelBulletType
     fromColor: 6d6d6d
-    toColor: 6d6d6d
+    toColor: ffffff
     damage: 25
     shootEffect: {
       type: ParticleEffect
