@@ -19,3 +19,4 @@ research: {
 name: Reconcentrator
 description: Fixes allied structures by concentrating minerals from the water onto them.
 baseColor: bbcbff
+category: effect
