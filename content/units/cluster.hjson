@@ -63,6 +63,7 @@ shootOnDeath: true
     fragBullet: {
           type: MissileBulletType
           damage: 12
+          lifetime: 12
           splashDamage: 8
           splashDamageRadius: 6
           homingPower: 0.6
