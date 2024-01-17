@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Dartle
+name: Batter
 description: Shoots a sequence of shrapnel, dealing large damage.
 reload: 75
 shootSound: shotgun
@@ -18,7 +18,6 @@ ammoTypes: {
     fromColor: 6d6d6d
     toColor: 6d6d6d
     damage: 25
-    lifetime: 24
     speed: 4
     shootEffect: {
       type: ParticleEffect
@@ -34,7 +33,6 @@ salt: {
     fromColor: 6d6d6d
     toColor: 6d6d6d
     damage: 35
-    lifetime: 24
     speed: 4
     shootEffect: {
       type: ParticleEffect
@@ -48,7 +46,6 @@ aggregate: {
     fromColor: 6d6d6d
     toColor: 6d6d6d
     damage: 25
-    lifetime: 24
     shootEffect: {
       type: ParticleEffect
       line: true
