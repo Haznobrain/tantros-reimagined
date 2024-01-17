@@ -1,1 +1,72 @@
-
+type: ItemTurret
+name: Dartle
+description: Shoots a sequence of shrapnel, dealing large damage.
+reload: 75
+shootSound: shootSnap
+recoil: 1
+size: 3
+category: turret
+range: 184
+shoot: {
+    shots: 5
+    shotDelay: 12
+    }
+  inaccuracy: 20
+ammoTypes: {
+  aluminium: {
+    type: ShrapnelBulletType
+    fromColor: 6d6d6d
+    toColor: 6d6d6d
+    damage: 25
+    lifetime: 24
+    speed: 4
+    shootEffect: {
+      type: ParticleEffect
+      line: true
+      cone: 10
+      length: 12
+      colorFrom: b6b6b6
+      colorTo: 6d6d6d
+    }
+}
+salt: {
+    type: ShrapnelBulletType
+    fromColor: 6d6d6d
+    toColor: 6d6d6d
+    damage: 35
+    lifetime: 24
+    speed: 4
+    shootEffect: {
+      type: ParticleEffect
+      line: true
+      cone: 10
+      length: 12
+    }
+}
+aggregate: {
+        type: ShrapnelBulletType
+    fromColor: 6d6d6d
+    toColor: 6d6d6d
+    damage: 25
+    lifetime: 24
+    shootEffect: {
+      type: ParticleEffect
+      line: true
+      cone: 10
+      length: 12
+      colorFrom: b6b6b6
+      colorTo: 6d6d6d
+    }
+      }
+}
+      requirements: [
+        aluminium/150
+        limestone/120
+        aggregate/75
+]
+research: {
+  parent: core-submerged
+  requirements: [
+    aluminium/10
+  ]
+}
