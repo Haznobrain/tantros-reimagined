@@ -1,7 +1,7 @@
 type: flying
 flying: true
-engineOffset: 10
-engineSize: 3
+engineOffset: 15
+engineSize: 6
 engineColor: 6b85d4
 health: 1650
 armor: 3
@@ -17,12 +17,15 @@ weapons: [
   shootCone: 12
   rotate: false
   x: 12
-  recoil: 0
+  recoil: 3
   mirror: true
 shootOnDeath: true
   shootSound: none
   y: 2
   shootEffect: {
+    cone: 15
+    length: 24
+    sizeFrom: 6
     type: ParticleEffect
     particles: 6
     colorFrom: ffa665
