@@ -47,7 +47,7 @@ aggregate: {
         type: ShrapnelBulletType
     fromColor: 6d6d6d
     toColor: ffffff
-    damage: 25
+    damage: 45
     length: 184
     shootEffect: {
       type: ParticleEffect
