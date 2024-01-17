@@ -2,8 +2,17 @@ type: MendProjector
 reload: 75
 range: 80
 healPercent: 2.875
+hasPower: true
+
 consume: {
     power: 3.2
+        items: {
+            items: [
+                aggregate/5
+            ]
+    booster: true
+    optional: true
+}
       }
 size: 1
   requirements: [
@@ -20,3 +29,4 @@ name: Reconcentrator
 description: Fixes allied structures by concentrating minerals from the water onto them.
 baseColor: bbcbff
 category: effect
+phaseboost: 30
