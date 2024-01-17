@@ -29,6 +29,7 @@ shootOnDeath: true
     colorTo: ffffff
     lifetime: 12
 }
+  shootSound: missile
   bullet: {
       shootEffect: {
     type: ParticleEffect
