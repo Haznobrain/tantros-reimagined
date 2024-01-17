@@ -3,7 +3,6 @@ reload: 75
 range: 80
 healPercent: 2.875
 hasPower: true
-
 consume: {
     power: 3.2
         items: {
