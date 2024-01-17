@@ -1,0 +1,10 @@
+planet: tantroz
+sector: 22
+research: {
+    parent: salt_reef
+}
+localizedName: Surfaced plateau
+difficulty: 5
+alwaysUnlocked: true
+overrideLaunchDefaults: true
+captureWave: 25
