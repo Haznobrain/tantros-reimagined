@@ -17,6 +17,7 @@ ammoTypes: {
     type: ShrapnelBulletType
     fromColor: 6d6d6d
     toColor: ffffff
+    length: 184
     damage: 25
     speed: 4
     shootEffect: {
@@ -33,6 +34,7 @@ salt: {
     fromColor: ffffff
     toColor: ffffff
     damage: 35
+    length: 184
     speed: 4
     shootEffect: {
       type: ParticleEffect
@@ -46,6 +48,7 @@ aggregate: {
     fromColor: 6d6d6d
     toColor: ffffff
     damage: 25
+    length: 184
     shootEffect: {
       type: ParticleEffect
       line: true
