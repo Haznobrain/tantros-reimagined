@@ -14,7 +14,6 @@ circleTarget: true
 weapons: [
   {
   name: cluster-launcher
-  minShootVelocity: 0.2
   reload: 60
   range: 176
   shootCone: 12
