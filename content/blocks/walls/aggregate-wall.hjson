@@ -1,0 +1,16 @@
+type: wall
+health: 840
+size: 1
+name: Aggregate wall
+description: a small wall that blocks ennemy projectiles.
+requirements: [
+  aggregate/4
+  salt/2
+]
+category: defense
+research: {
+  parent: large-aluminium-wall
+  requirements: [
+    aluminium/40
+]
+}
