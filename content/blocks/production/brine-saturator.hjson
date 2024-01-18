@@ -33,7 +33,7 @@ category: crafting
          {
          type: DrawLiquidTile
          suffix: -top
-         drawLiquid: saltwater
+         drawLiquid: brine
         }
         {
        type: DrawRegion
