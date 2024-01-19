@@ -10,7 +10,7 @@ consumes: {
 plans: [ 
 {
 type: UnitAssemblerPlan
-  unit: oligo
+  unit: arhyn
       time: 900
         requirements: [
           tantrosmod-dartle/1
