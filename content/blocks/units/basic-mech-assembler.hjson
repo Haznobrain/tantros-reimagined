@@ -1,1 +1,36 @@
-
+name: Basic mech assembler
+description: assembles basic t1 and t2 mech units.
+size: 3
+type: UnitAssembler
+configurable: true
+areaSize: 5
+consumes: {
+    power: 2
+}
+plans: [ 
+{
+type: UnitAssemblerPlan
+  unit: oligo
+      time: 900
+        requirements: [
+          tantrosmod-dartle/1
+          tantrosmod-aluminium-wall/5
+]
+}
+{
+type: UnitAssemblerPlan
+  unit: cnida
+      time: 1200
+        requirements: [
+          tantrosmod-dartle/2
+          tantrosmod-aluminium-wall/8
+]
+}
+  ]
+requirements: [
+  aluminium/150
+  limestone/100
+  salt/50
+]
+research: core-submerged
+category: units
