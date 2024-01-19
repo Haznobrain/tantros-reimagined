@@ -3,6 +3,7 @@ description: assembles basic t1 and t2 mech units.
 size: 3
 type: UnitAssembler
 configurable: true
+droneType: tantrosmod-basic-assembly-drone
 areaSize: 5
 consumes: {
     power: 2
