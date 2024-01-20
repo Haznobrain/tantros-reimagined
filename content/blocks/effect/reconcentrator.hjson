@@ -1,6 +1,6 @@
 type: RegenProjector
 range: 16
-healPercent: 0.11
+healPercent: 0.06
 hasPower: true
 consume: {
     power: 3.2
