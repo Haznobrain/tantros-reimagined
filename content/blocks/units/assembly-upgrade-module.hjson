@@ -9,3 +9,4 @@ requirements: [
   consume: {
     power: 6
       }
+category: units
