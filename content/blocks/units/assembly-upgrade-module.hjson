@@ -1,0 +1,11 @@
+type: UnitAssemblerModule
+research: basic-mech-assembler
+requirements: [
+    aluminium/300
+    limestone/450
+    aggregate/25
+  ]
+  size: 3
+  consume: {
+    power: 6
+      }
