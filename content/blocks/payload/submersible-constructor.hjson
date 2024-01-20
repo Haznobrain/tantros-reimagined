@@ -1,0 +1,8 @@
+type: Constructor
+description: builds 1 by 1 to 2 by 2 blocks
+research: basic-mech-assembler
+requirements: [
+    aluminium/120
+    limestone/50
+    salt/50
+  ]
