@@ -20,7 +20,7 @@ type: UnitAssemblerPlan
 }
 {
 type: UnitAssemblerPlan
-  unit: cnida
+  unit: drop
       time: 1300
         requirements: [
           tantrosmod-dartle/2
