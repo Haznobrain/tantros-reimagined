@@ -8,4 +8,4 @@ requirements: [
   ]
 name: Submersible constructor
 description: Builds blocks under payload form
-category: unit
+category: units
