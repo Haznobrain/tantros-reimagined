@@ -1,0 +1,39 @@
+name: Basic air assembler
+description: assembles basic t1 and t2 air units.
+size: 3
+type: UnitAssembler
+configurable: true
+droneType: tantrosmod-basic-assembly-drone
+areaSize: 5
+consumes: {
+    power: 2
+}
+plans: [ 
+{
+type: UnitAssemblerPlan
+  unit: burst
+      time: 900
+        requirements: [
+          tantrosmod-dartle/1
+          tantrosmod-aluminium-wall/3
+]
+}
+{
+type: UnitAssemblerPlan
+  unit: cnida
+      time: 1300
+        requirements: [
+          tantrosmod-dartle/2
+          tantrosmod-aluminium-wall/6
+]
+}
+  ]
+requirements: [
+  aluminium/150
+  limestone/175
+  salt/75
+]
+research:{
+parent: basic-mech-assembler
+  }
+category: units
