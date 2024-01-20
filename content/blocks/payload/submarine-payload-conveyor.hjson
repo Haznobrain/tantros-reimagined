@@ -1,0 +1,15 @@
+type: PayloadConveyor
+moveTime: 40
+canOverdrive: false
+underBullets: true
+research: {
+  parent: basic-mech-assembler
+    requirements: [
+        aluminium/10
+        limestone/4
+    ]
+    }
+requirements: [
+      aluminium/10
+      limestone/4
+  ]
