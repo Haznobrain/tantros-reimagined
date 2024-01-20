@@ -13,3 +13,5 @@ requirements: [
       aluminium/10
       limestone/4
   ]
+name: Submarine payload conveyor
+description: Moves payload blocks and units.
