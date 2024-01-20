@@ -6,3 +6,5 @@ requirements: [
     limestone/50
     salt/50
   ]
+name: Submersible constructor
+description: Builds blocks under payload form
