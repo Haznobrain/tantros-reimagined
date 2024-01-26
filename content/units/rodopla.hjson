@@ -13,6 +13,7 @@ engineOffset: 6
 engineSize: 4
 hovering: true
 shadowElevation: 0.1
+useEngineElevation: false
 parts: [
   {
   type: HoverPart
