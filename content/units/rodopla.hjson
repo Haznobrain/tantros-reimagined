@@ -43,8 +43,10 @@ parts: [
 weapons: [
 {
   name: small-mount-weapon
-  x: 2
-  y: 7
+  x: 1
+  y: 6
+  top: false
+  layerOffset: -1
   shootSound: blaster
   reload: 16
   mirror: true
