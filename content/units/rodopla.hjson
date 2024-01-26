@@ -18,11 +18,16 @@ parts: [
   x: 5
   y: 0.5
   mirror: true
+  under: true
+  color: ffd37f
   }
   {
     type: HoverPart
     x: 5
     y: -3
+    mirror: true
+    under: true
+    color: ffd37f
   }
 ]
 weapons: [
