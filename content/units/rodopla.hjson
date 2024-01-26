@@ -1,6 +1,6 @@
 name: Rodopla
 description: A small hovering unit that can build, keeper of the submerged core.
-type: ErekirUnitType
+type: ground
 canBoost: true
 speed: 2.82
 buildSpeed: 1
