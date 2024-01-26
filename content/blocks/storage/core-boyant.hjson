@@ -1,0 +1,22 @@
+name: Core: boyant
+type: coreBlock
+alwaysUnlocked: true
+isFirstTier: true
+health: 3600
+itemCapacity: 7500
+size: 4
+unitCapModifier: 10
+unitType: rodopla
+alwaysUnlocked: true
+research: {
+    planet: tantroz
+    root: true
+    name: Tantros
+    requiresUnlock: false
+}
+requirements: [
+    aluminium/1100
+    limestone/1200
+    aggregate/1200
+]
+category: effect
