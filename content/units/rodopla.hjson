@@ -28,7 +28,7 @@ parts: [
 weapons: [
 {
   name: small-mount-weapon
-  x: 3
+  x: 7
   y: 0
   shootSound: blaster
   reload: 16
