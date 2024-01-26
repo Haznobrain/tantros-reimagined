@@ -1,1 +1,47 @@
-
+name: Rodopla
+description: A small hovering unit that can build, keeper of the submerged core.
+type: UnitType
+canBoost: true
+speed: 2.82
+buildSpeed: 1
+drag: 0.16
+hitSize: 7
+health: 340
+mineSpeed: 6
+mineTier: 2
+weapons: [
+{
+  name: small-mount-weapon
+  x: 3
+  y: 0
+  shootSound: blaster
+  reload: 16
+  mirror: true
+  range: 184
+  bullet: {
+    type: BasicBulletType
+    weaveScale: 3
+    weaveMag: 3
+    speed: 4
+    lifetime: 46
+    damage: 11
+    splashDamage: 6
+    splashDamageRadius: 6
+    trailLength: 3
+    trailWidth: 5
+    height: 5
+    width: 5
+    trailInterval: 6
+    buildingDamageMultiplier: 0.01
+    trailEffect: {
+      type: ParticleEffect
+      particles: 1
+      sprite: tantrosmod-bubble
+      lifetime: 30
+      sizeTo: 3
+      sizeFrom: 3
+      length: 6
+        }
+  }
+}
+]
