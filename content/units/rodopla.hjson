@@ -9,6 +9,22 @@ hitSize: 7
 health: 340
 mineSpeed: 6
 mineTier: 2
+engineOffset: 6
+engineSize: 4
+hovering: true
+parts: [
+  {
+  type: HoverPart
+  x: 5
+  y: 0.5
+  mirror: true
+  }
+  {
+    type: HoverPart
+    x: 5
+    y: -3
+  }
+]
 weapons: [
 {
   name: small-mount-weapon
