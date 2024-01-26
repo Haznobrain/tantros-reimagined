@@ -20,6 +20,8 @@ parts: [
   mirror: true
   under: true
   color: ffd37f
+  phase: 90
+  layerOffset: -0.001
   }
   {
     type: HoverPart
@@ -28,6 +30,7 @@ parts: [
     mirror: true
     under: true
     color: ffd37f
+  layerOffset: -0.001
   }
 ]
 weapons: [
