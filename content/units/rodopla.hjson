@@ -12,6 +12,7 @@ mineTier: 2
 engineOffset: 6
 engineSize: 4
 hovering: true
+shadowElevation: 0.1
 parts: [
   {
   type: HoverPart
@@ -21,15 +22,20 @@ parts: [
   under: true
   color: ffd37f
   phase: 90
+  stroke: 2
+  radius: 6
   layerOffset: -0.001
   }
   {
     type: HoverPart
     x: 5
     y: -3
+    radius: 6
     mirror: true
     under: true
     color: ffd37f
+  phase: 90
+  stroke: 2
   layerOffset: -0.001
   }
 ]
