@@ -1,0 +1,38 @@
+name: Intermediate assembler
+description: assembles t3 ground and air units.
+size: 4
+type: UnitAssembler
+configurable: true
+droneType: tantrosmod-basic-assembly-drone
+areaSize: 8
+consumes: {
+    power: 6
+}
+plans: [ 
+{
+type: UnitAssemblerPlan
+  unit: agnatha
+      time: 3600
+        requirements: [
+          tantrosmod-column/4
+          tantrosmod-aggregate-wall/15
+]
+}
+{
+type: UnitAssemblerPlan
+  unit: cluster
+      time: 4200
+        requirements: [
+          tantrosmod-column/6
+          tantrosmod-aggregate-wall/12
+]
+}
+  ]
+requirements: [
+  aluminium/700
+  limestone/850
+  salt/450
+  aggregate/450
+]
+research: assembly-upgrade-module
+category: units
