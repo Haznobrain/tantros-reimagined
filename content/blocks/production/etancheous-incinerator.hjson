@@ -1,8 +1,9 @@
 type: Incinerator
-  name: Etancheous incinerator.
-  Description: incinerates inputted items and liquids.
+name: Etancheous incinerator
+Description: incinerates inputted items and liquids.
+
   consumes: {
-    power/0.3
+    power: 0.3
       }
 research: desalinator
 requirements: [
