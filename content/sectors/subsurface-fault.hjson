@@ -1,0 +1,9 @@
+planet: tantroz
+sector: 6
+research: {
+    parent: surfaced-plateau
+}
+localizedName: Surfaced plateau
+difficulty: 6
+alwaysUnlocked: false
+overrideLaunchDefaults: true
