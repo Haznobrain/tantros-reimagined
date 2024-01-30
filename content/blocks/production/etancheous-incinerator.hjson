@@ -1,6 +1,6 @@
 type: Incinerator
   name: Etancheous incinerator.
-  Description: incinerates inputted items.
+  Description: incinerates inputted items and liquids.
   consumes: {
     power/0.3
       }
