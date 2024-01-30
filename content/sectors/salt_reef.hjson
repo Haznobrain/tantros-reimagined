@@ -5,6 +5,5 @@ research: {
 }
 localizedName: Salt reef
 difficulty: 2
-alwaysUnlocked: true
 overrideLaunchDefaults: true
 captureWave: 10
