@@ -3,7 +3,7 @@ sector: 6
 research: {
     parent: surfaced-plateau
 }
-localizedName: Surfaced plateau
+localizedName: Subsurface fault
 difficulty: 6
 alwaysUnlocked: false
 overrideLaunchDefaults: true
