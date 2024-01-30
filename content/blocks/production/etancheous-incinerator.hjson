@@ -1,0 +1,11 @@
+type: Incinerator
+  name: Etancheous incinerator.
+  Description: incinerates inputted items.
+  consumes: {
+    power/0.3
+      }
+research: desalinator
+requirements: [
+    aluminium/15
+    salt/10
+  ]
