@@ -26,5 +26,6 @@ weapons: [
     hitColor: ffc398
     pierceCap: 2
 }
+}
 ]
 research: cnida
