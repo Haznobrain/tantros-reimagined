@@ -30,6 +30,7 @@ weapons: [
       colorFrom: ffd37f
       colorTo: ffd37f
       lengthFrom: 6
+      lifetime: 12
     }
     speed: 8
     lifetime: 18.45
