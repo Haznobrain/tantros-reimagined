@@ -13,6 +13,10 @@ faceTarget: false
 circleTarget: true
 weapons: [
   {
+  x: 0
+  y: 0
+  mirror: false
+  shootSound: torch
   name: weld
   recoil: 0
   shootStatus: slow
@@ -20,6 +24,7 @@ weapons: [
   alwaysContinuous: true
   range: 128
   bullet: {
+    flareColor: ffb076
     type: ContinuousFlameBulletType
     damage: 22
     length: 128
