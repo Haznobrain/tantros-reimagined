@@ -18,7 +18,8 @@ range: 304
 shootType: {
     type: PointLaserBulletType
     damage: 0
-    splashDamage: 11
+    splashDamage: 22
+    pierceArmor: true
     splashDamageRadius: 24
     status: slow
     maxLength: 304
