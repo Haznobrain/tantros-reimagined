@@ -1,1 +1,30 @@
-
+type: flying
+flying: true
+engineOffset: 24
+engineSize: 6
+engineColor: 6b85d4
+health: 7500
+hitSize: 48
+speed: 0.9
+description: A large unit wich fires a short range plasma flame at ennemy targets.
+name: Drop
+faceTarget: false
+circleTarget: true
+weapons: [
+  {
+  name: weld
+  recoil: false
+  shootStatus: slow
+  continuous: true
+  alwaysContinuous: true
+  range: 128
+  bullet: {
+    type: ContinuousFlameBulletType
+    damage: 22
+    length: 128
+    colors: [ffa665, ffb076, ffc398, ffd4b4, ffffff]
+    hitColor: ffc398
+    pierceCap: 2
+}
+]
+research: cnida
