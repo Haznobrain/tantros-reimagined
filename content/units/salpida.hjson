@@ -3,7 +3,7 @@ name: Salpida
 health: 12500
 armor: 11
 description: Shoots spreads of bullets in a shotgun-like manner.
-speed: 0.42
+speed: 0.39
 hitSize: 36
 weapons: [
   {
