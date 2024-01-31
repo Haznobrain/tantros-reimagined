@@ -8,7 +8,7 @@ armor: 8
 hitSize: 48
 speed: 0.9
 description: A large unit wich fires a short range plasma flame at ennemy targets.
-name: Drop
+name: Weld
 faceTarget: false
 circleTarget: true
 weapons: [
