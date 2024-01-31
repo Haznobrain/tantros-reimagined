@@ -14,7 +14,7 @@ circleTarget: true
 weapons: [
   {
   name: weld
-  recoil: false
+  recoil: 0
   shootStatus: slow
   continuous: true
   alwaysContinuous: true
