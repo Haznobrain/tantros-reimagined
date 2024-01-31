@@ -4,6 +4,9 @@ engineOffset: 24
 engineSize: 6
 engineColor: 6b85d4
 health: 7500
+immunities: [
+unmoving,
+]
 armor: 8
 hitSize: 48
 speed: 0.9
