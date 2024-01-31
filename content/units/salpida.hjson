@@ -1,0 +1,45 @@
+type: mech
+name: Salpida
+health: 12500
+armor: 11
+description: Shoots spreads of bullets in a shotgun-like manner.
+speed: 0.42
+hitSize: 36
+weapons: [
+  {
+  name: salpida-gun
+  x: 23.75
+  y: 2
+  top: false
+  shootSound: shotgun
+  shootY: 12
+  reload: 15
+  range: 147.6
+  shoot: {
+    type: ShootSpread
+    spread: 5
+    shots: 6
+  }
+  bullet: {
+    shootEffect: {
+      type: ParticleEffect
+      length: 24
+      line: true
+      particles: 20
+      cone: 10
+      colorFrom: ffd37f
+      colorTo: ffd37f
+      lengthFrom: 6
+    }
+    width: 13
+    height: 15
+    trailLength: 5
+    trailWidth: 20
+    backColor: ff9c5a
+    trailColor: ff9c5a
+    type: BasicBulletType
+    toColor: ffd37f
+    damage: 30
+      }
+}
+]
