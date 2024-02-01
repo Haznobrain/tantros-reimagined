@@ -1,0 +1,56 @@
+type: mech
+name: Coelaca
+health: 24500
+armor: 22
+description: Shoots clusters of artillery shells
+speed: 0.29
+hitSize: 48
+weapons: [
+  {
+  name: coealaca-gun
+  x: 28.5
+  y: 2
+  top: false
+  shootSound: mediumCanon
+  shootY: 18
+  reload: 15
+  range: 208
+  inaccuracy: 5
+  recoil: 5
+  ejectEffect: casing4
+  shoot: {
+    type: ShootSpread
+    shots: 6
+  }
+  velocityRnd: 0.4
+  bullet: {
+    shootEffect: {
+      type: ParticleEffect
+      length: 24
+      line: true
+      particles: 20
+      cone: 10
+      colorFrom: ffd37f
+      colorTo: ffd37f
+      lengthFrom: 6
+      lifetime: 12
+    }
+    speed: 8
+    shrinkY: 1
+    lifetime: 26
+    width: 13
+    height: 15
+    trailLength: 5
+    trailWidth: 20
+    backColor: ff9c5a
+    trailColor: ff9c5a
+    type: BasicBulletType
+    hitSound: dullExplosion
+      scaledSplashDamage: true
+    toColor: ffd37f
+    splashdamage: 45
+    splashDamageRadius: 36
+    scaleLife: true
+      }
+}
+]
