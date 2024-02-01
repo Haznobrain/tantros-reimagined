@@ -19,7 +19,6 @@ weapons: [
   recoil: 5
   ejectEffect: casing4
   shoot: {
-    type: ShootSpread
     shots: 6
   }
   velocityRnd: 0.2
