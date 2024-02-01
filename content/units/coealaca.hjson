@@ -15,14 +15,14 @@ weapons: [
   shootY: 18
   reload: 15
   range: 208
-  inaccuracy: 5
+  inaccuracy: 2
   recoil: 5
   ejectEffect: casing4
   shoot: {
     type: ShootSpread
     shots: 6
   }
-  velocityRnd: 0.4
+  velocityRnd: 0.2
   bullet: {
     shootEffect: {
       type: ParticleEffect
@@ -40,10 +40,7 @@ weapons: [
     lifetime: 26
     width: 18
     height: 12
-    trailLength: 5
-    trailWidth: 20
     backColor: ff9c5a
-    trailColor: ff9c5a
     type: BasicBulletType
     hitSound: dullExplosion
       scaledSplashDamage: true
