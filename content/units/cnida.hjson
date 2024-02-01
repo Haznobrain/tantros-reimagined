@@ -18,7 +18,7 @@ weapons: [
   parentizeEffects: true
   bullet: {
     type: LaserBulletType
-    Damage: 25
+    damage: 8
     fragBullets: 4
     colors: [ffa665,ffa665,ffa665]
     pierceCap: 1
