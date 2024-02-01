@@ -4,6 +4,9 @@ health: 24500
 armor: 22
 description: Shoots clusters of artillery shells
 speed: 0.29
+mechStepParticles: true
+mechFrontSway: 1.2
+mechSideSway: 2.8
 hitSize: 48
 weapons: [
   {
