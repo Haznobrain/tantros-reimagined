@@ -1,0 +1,9 @@
+type: DuctBridge
+speed: 4
+name: Pressure Bridge
+description: Moves items over blocks and walls. Directional.
+research: pressure-junction
+requirements: [
+    aluminium/10
+    limestone/5
+  ]
