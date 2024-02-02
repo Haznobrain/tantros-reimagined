@@ -1,8 +1,9 @@
 name: Deep Bore
-description: Digs very deep into the planet to get titanium deposits.
+description: Digs very deep into the planet to get thorium deposits.
 type: GenericCrafter
 size: 3
-outputItem: titanium/1
+outputItem: thorium/1
+category: production
 itemCapacity: 20
 consumes: {
     liquids: [
@@ -11,10 +12,7 @@ consumes: {
   power: 1
 }
 
-// Crafts 1nce per second.
 craftTime: 60
-
-// Makes a nice flamey effect.
 
 requirements: [
 aluminium/85
