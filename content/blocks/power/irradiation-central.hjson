@@ -4,15 +4,23 @@ name: Irradiation central
 description: Uses thorium and brine to produce a good amount of power
 powerProduction: 20
 itemCapacity: 45
+fuelItem: thorium
 size: 4
-consume: {
-  liquid: [
-      brine/0.05
+consumes: {
+  liquid: {
+    liquid: brine
+    amount: 0.05
+  }
+  items: {
+    items: [
+      thorium/1
     ]
-    }
+  }
+}
 requirements: [
   aluminium/400
   salt/400
   aggregate/400
   thorium/200
 ]
+category: power
