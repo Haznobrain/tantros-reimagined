@@ -35,6 +35,7 @@ shootType: {
   homingPower: 0.6
   homingDelay: 8
   lifetime: 60
+  shrinkY: 0
     }
 requirements: [
   aluminium/450
