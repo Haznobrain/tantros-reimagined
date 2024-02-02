@@ -31,3 +31,10 @@ shootType: {
   homingDelay: 8
   lifetime: 104
     }
+requirements: [
+  aluminium/450
+  salt/450
+  aggregate/400
+  thorium/250
+]
+research: abreviate
