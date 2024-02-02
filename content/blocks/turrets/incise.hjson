@@ -19,6 +19,7 @@ shootSound: blaster
 shootY: -2
 range: 312
 minRange: 78
+category: turret
 shootType: {
   type: BasicBulletType
   sprite: tantrosmod-saw
@@ -33,7 +34,7 @@ shootType: {
   speed: 6
   homingPower: 0.6
   homingDelay: 8
-  lifetime: 104
+  lifetime: 60
     }
 requirements: [
   aluminium/450
