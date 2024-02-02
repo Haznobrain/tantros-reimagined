@@ -18,7 +18,7 @@ consumes: {
 shoot: {
   type: ShootAlternate
   barrels: 2
-  spread: 6
+  spread: 8
     }
 ammoTypes: {
 aggregate: {
@@ -34,6 +34,7 @@ thorium: {
     length: 216
     sideLength: 0
     shootEffect: none
+    colors:[ffaed9, f0c6dc, ffe5f3]
 }
 }
 research: batter
