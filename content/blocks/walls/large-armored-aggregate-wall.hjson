@@ -1,0 +1,14 @@
+type: wall
+health: 3840
+armor: 26
+size: 2
+name: Amored Aggregate Wall
+description: a wall that blocks ennemy projectiles. Has high armor.
+requirements: [
+  aggregate/16
+  thorium/16
+]
+category: defense
+research: {
+  parent: armored-aggregate-wall
+}
