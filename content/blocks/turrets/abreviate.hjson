@@ -1,0 +1,45 @@
+type: ItemTurret
+name: Abreviate
+description: Fires alternating high-damage laser beams made from fusing different materials together.
+health: 1565
+armor: 2
+reload: 13
+range: 216
+shootY: 6
+consumes: {
+  power: 6
+  items: [
+      sand/2
+    ]
+  coolant: {
+      amount: 0.5
+        }
+    }
+shoot: {
+  type: ShootAlternate
+  barrels: 2
+  spread: 6
+    }
+ammoTypes: {
+aggregate: {
+    type: LaserBulletType
+    damage: 65
+    length: 216
+    sideLength: 0
+    shootEffect: none
+      }
+thorium: {
+    type: LaserBulletType
+    damage: 115
+    length: 216
+    sideLength: 0
+    shootEffect: none
+}
+}
+research: batter
+requirements: [
+    aluminium/450
+    limestone/250
+    aggregate/250
+    thorium/150
+  ]
