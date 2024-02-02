@@ -5,6 +5,8 @@ health: 1565
 armor: 2
 reload: 13
 range: 216
+size: 3
+category: turret
 shootY: 6
 shootSound: laser
 consumes: {
