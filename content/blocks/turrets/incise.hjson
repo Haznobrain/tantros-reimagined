@@ -21,6 +21,8 @@ range: 312
 minRange: 78
 category: turret
 shootType: {
+  hitEffect: hitLancer
+  homingRange: 200
   type: BasicBulletType
   sprite: tantrosmod-saw
   spin: 8
