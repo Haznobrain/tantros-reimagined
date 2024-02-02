@@ -1,8 +1,12 @@
 type: PowerTurret
 name: Incise
 reload: 20
+size: 3
 consumes: {
   power: 12
+  coolant: {
+    amount: 0.5
+    }
     }
 description: Fires two homing long range piercing saw blades towards ennemy targets.
 shoot: {
