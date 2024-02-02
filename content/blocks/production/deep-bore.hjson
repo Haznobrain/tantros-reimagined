@@ -14,6 +14,7 @@ consumes: {
 
 craftTime: 60
 
+drawer: [
 requirements: [
 aluminium/85
 limestone/60
