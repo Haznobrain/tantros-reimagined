@@ -9,12 +9,32 @@ consumes: {
     liquids: [
       water/1
     ]
+    items: [
+        sand/2
+        ]
   power: 1
 }
 
 craftTime: 60
 
-drawer: [
+drawer: {
+    type: DrawMulti
+    drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawRegion
+    suffix: -rotator
+    rotateSpeed: 2.8
+    }
+    {
+    type: DrawRegion
+    suffix: -top
+    }
+]
+}
 requirements: [
 aluminium/85
 limestone/60
