@@ -1,0 +1,33 @@
+type: PowerTurret
+name: Incise
+reload: 20
+consumes: {
+  power: 12
+    }
+description: Fires two homing long range piercing saw blades towards ennemy targets.
+shoot: {
+  type: ShootSpread
+  spread: 90
+  shots: 2
+    }
+recoil: 2
+shootSound: blaster
+shootY: -2
+range: 312
+minRange: 78
+shootType: {
+  type: BasicBulletType
+  sprite: tantrosmod-saw
+  spin: 8
+  frontColor: c0ecff
+  backColor: 87ceeb
+  height: 12
+  width: 12
+  damage: 65
+  pierce: true
+  pierceCap: 8
+  speed: 6
+  homingPower: 0.6
+  homingDelay: 8
+  lifetime: 104
+    }
