@@ -6,6 +6,7 @@ armor: 2
 reload: 13
 range: 216
 shootY: 6
+shootSound: laser
 consumes: {
   power: 6
   items: [
