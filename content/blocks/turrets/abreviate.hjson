@@ -11,9 +11,6 @@ shootY: 6
 shootSound: laser
 consumes: {
   power: 6
-  items: [
-      sand/2
-    ]
   coolant: {
       amount: 0.5
         }
