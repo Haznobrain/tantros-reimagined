@@ -10,3 +10,9 @@ consume: {
       brine/0.05
     ]
     }
+requirements: [
+  aluminium/400
+  salt/400
+  aggregate/400
+  thorium/200
+]
