@@ -1,7 +1,6 @@
     generator: "PlanetGenerator",
     parent: "sun",
     iconColor: 003e83,
-    localizedName: Tantros
     orbitRadius: 90,
     hasAtmosphere: true,
     updateLighting: false,
@@ -35,7 +34,7 @@
         beryllium,
         tungsten,
         oxide,
-        carbide,
+        carbide
         ]
     cloudMesh: {
          type: HexSkyMesh
