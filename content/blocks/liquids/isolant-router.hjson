@@ -1,0 +1,14 @@
+type: LiquidRouter
+liquidCapacity: 40
+category: liquid
+placeableLiquid: true
+hasPower: false
+requirements: [
+  aluminium/3
+  aggregate/2
+]
+research: {
+    parent: "isolant-pipe",
+},
+name: Isolant router
+description: splits liquids equally in 3 output directions.
