@@ -1,9 +1,9 @@
 planet: tantroz
 sector: 6
 research: {
-    parent: surfaced-plateau
+    parent: subsurface-fault
 }
-localizedName: Subsurface fault
+localizedName: Recluse
 difficulty: 7
 alwaysUnlocked: false
 overrideLaunchDefaults: true
