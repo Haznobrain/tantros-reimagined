@@ -1,5 +1,5 @@
 planet: tantroz
-sector: 6
+sector: 7
 research: {
     parent: subsurface-fault
 }
