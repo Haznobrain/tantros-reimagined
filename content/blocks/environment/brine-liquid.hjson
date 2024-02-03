@@ -2,6 +2,6 @@ type: Floor
 isLiquid: true
 drownTime: 600
 speedMultiplier: 0.3
-status: frozen
+status: freezing
 liquidDrop: brine
 variants: 2
