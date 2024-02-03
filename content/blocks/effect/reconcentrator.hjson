@@ -2,6 +2,7 @@ type: RegenProjector
 range: 16
 healPercent: 0.06
 hasPower: true
+consumesPower: true
 consume: {
     power: 3.2
         items: {
