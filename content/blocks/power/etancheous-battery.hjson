@@ -1,0 +1,29 @@
+type: battery
+size: 2
+	"hasPower": true,
+	"consumesPower": true,
+	"hasItems": false,
+canOverdrive: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+consumes: {
+    powerBuffered: 20000
+}
+category: power
+requirements: [
+  aluminium/150
+  salt/150
+]
+research: {
+    parent: "submarine-power-node",
+}
