@@ -43,7 +43,7 @@ aggregate/90
 research: {
         parent: aggregate-mixer
         objectives: [
-            surfaced-plateau
+            recluse
             ]
 }
 category: crafting
