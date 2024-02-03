@@ -1,0 +1,13 @@
+type: Conduit
+leaks: false
+hasPower: false
+requirements: [
+  aluminium/2
+  aggregate/1
+]
+liquidCapacity: 30
+liquidPressure: 1
+category: liquid
+research: {
+    parent: intake-valve
+}
