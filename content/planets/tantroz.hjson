@@ -37,16 +37,6 @@
         oxide,
         carbide,
         ]
-    itemWhiteList: [
-        aluminium,
-        limestone,
-        sand,
-        aggregate,
-        salt,
-        thorium,
-        pyratite,
-        blast-compound
-        ]
     cloudMesh: {
          type: HexSkyMesh
          planet: tantroz
