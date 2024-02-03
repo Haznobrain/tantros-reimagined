@@ -19,27 +19,16 @@
     allowSectorInvasion: false,
     allowLaunchToNumbered: false,
     radius: 1,
-    hiddenItems: [
-        "copper",
-        "lead",
-        "scrap",
-        "graphite",
-        "coal",
-        "titanium",
-        "silicon",
-        "plastanium",
-        "phase-fabric",
-        "surge-alloy",
-        "spore-pod",
-        "blast-compound",
-        "metaglass",
-        "beryllium",
-        "oxide",
-        "tungsten",
-        "carbide",
-        "fissile-matter",
-        "dormant-cyst"
-    ],
+    itemWhiteList: [
+        aluminium,
+        limestone,
+        sand,
+        aggregate,
+        salt,
+        thorium,
+        pyratite,
+        blast-compound
+        ]
     cloudMesh: {
          type: HexSkyMesh
          planet: tantroz
