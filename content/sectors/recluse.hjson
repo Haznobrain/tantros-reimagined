@@ -7,3 +7,4 @@ localizedName: Recluse
 difficulty: 7
 alwaysUnlocked: false
 overrideLaunchDefaults: true
+captureWave: 50
