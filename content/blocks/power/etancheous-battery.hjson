@@ -4,6 +4,8 @@ size: 2
 	"consumesPower": true,
 	"hasItems": false,
 canOverdrive: false
+name: Etancheous Battery
+description: Stores a good amount of power and releases it when necessary.
 drawer: {
   type: DrawMulti
   drawers: [
