@@ -15,13 +15,9 @@ groundLayer: 74
   shadowElevation: 0.2
 legExtension: -2
 legBaseOffset: 5
-legMaxLength: 1.05
-legLengthScl: 0.96
-legMinLength: 0.95
-legForwardScale: 1.1
+legForwardScale: 0.6
 legGroupSize: 4
-rippleScale: 0.2
-legMoveSpace: 2
+legMoveSpace: 1.4
 allowLegStep: true
 legPhysicsLayer: false
 weapons: [
