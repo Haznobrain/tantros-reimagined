@@ -45,6 +45,8 @@ name: small-heal-point
 type: RepairBeamWeapon
 mirror: false
 repairSpeed: 0.2
+beamWidth: 0.5
+
 y: -3
 x: 0
 range: 64
