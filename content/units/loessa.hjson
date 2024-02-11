@@ -13,8 +13,7 @@ legCount: 4
 legLength: 8
 groundLayer: 74
   shadowElevation: 0.2
-legExtension: -2
-legBaseOffset: 5
+legBaseOffset: 3
 legForwardScale: 0.6
 legGroupSize: 4
 legMoveSpace: 1.4
