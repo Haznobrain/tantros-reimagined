@@ -1,7 +1,7 @@
 type: legs
 name: Tephra
 health: 400
-description: Shoots small lasers
+description: Has an integrated flamethrower and a mounted point defense weapon as well as 2 healing points.
 speed: 0.79
 hitSize: 16
 hovering: true
@@ -13,10 +13,16 @@ legCount: 4
 legLength: 24
 groundLayer: 74
 shadowElevation: 0.25
+legExtension: -3
+legMaxLength: 1.1
+legMinLength: 0.2
+legLengthScl: 0.95
+legContinuousMove: true
 legBaseOffset: 5
-legForwardScale: 0.6
-legGroupSize: 3
-legMoveSpace: 1.4
+legForwardScale: 0.7
+legGroupSize: 2
+lockLegBase: true
+legMoveSpace: 1
 allowLegStep: true
 legPhysicsLayer: false
 weapons: [
@@ -38,7 +44,7 @@ weapons: [
     pierceBuildings: true
     pierceCap: 2
     shootEffect: {
-      cone: 0
+      cone: 5
       type: ParticleEffect
       colorFrom: 84f491
       colorTo: ffffff
