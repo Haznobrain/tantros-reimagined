@@ -37,6 +37,7 @@ weapons: [
   y: 0
   innacurracy: 5
   mirror: true
+  mirror: false
   bullet: {
     type: BulletType
     hitSize: 7
@@ -55,7 +56,7 @@ weapons: [
       }
     hitEffect: hitFlamePlasma
     despawnEffect: none
-    damage: 8
+    damage: 16
     status: burning
     healPercent: 1
 }
@@ -81,6 +82,7 @@ y: -6
 x: 0
 reload: 9
 mirror: false
+range: 64
 targetInterval: 10
 targetSwitchInterval: 15
 bullet: {
