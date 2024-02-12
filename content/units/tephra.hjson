@@ -1,0 +1,58 @@
+type: legs
+name: Tephra
+health: 400
+description: Shoots small lasers
+speed: 0.8
+hitSize: 10
+hovering: true
+rotateSpeed: 12
+legStraightness: 0.3
+allowLegStep: true
+legSpeed: 1.1
+legCount: 4
+legLength: 8
+groundLayer: 74
+  shadowElevation: 0.2
+legBaseOffset: 3
+legForwardScale: 0.6
+legGroupSize: 4
+legMoveSpace: 1.4
+allowLegStep: true
+legPhysicsLayer: false
+weapons: [
+{
+  name: small-heal-gun
+  recoil: 2
+  shootSound: lasershoot
+  reload: 30
+  range: 128
+  x: 4
+  innacurracy: 5
+  mirror: true
+  bullet: {
+    hitColor: 84f491
+    backColor: 84f491
+    type: LaserBoltBulletType
+      damage: 12
+      speed: 5.2
+      lifetime: 25
+      healPercent: 0.5
+}
+}
+  {
+name: small-heal-point
+type: RepairBeamWeapon
+mirror: false
+repairSpeed: 0.2
+beamWidth: 0.5
+
+y: -3
+x: 0
+range: 64
+bullet: {
+  type: BulletType
+  maxRange: 64
+    }
+}
+]
+research: merui
