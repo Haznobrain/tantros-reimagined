@@ -79,6 +79,7 @@ name: small-heal-def
 type: PointDefenseWeapon
 y: -6
 reload: 9
+mirror: false
 targetInterval: 10
 targetSwitchInterval: 15
 bullet: {
