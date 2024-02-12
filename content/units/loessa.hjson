@@ -1,7 +1,7 @@
 type: legs
 name: Loessa
 health: 150
-description: Shoots small lasers
+description: Shoots small lasers and heals friendly units in a small radius.
 speed: 0.8
 hitSize: 10
 hovering: true
