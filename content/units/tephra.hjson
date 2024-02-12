@@ -12,7 +12,7 @@ legSpeed: 1.1
 legCount: 4
 legLength: 8
 groundLayer: 74
-shadowElevation: 0.2
+shadowElevation: 0.25
 legBaseOffset: 5
 legForwardScale: 0.6
 legGroupSize: 3
@@ -22,11 +22,13 @@ legPhysicsLayer: false
 weapons: [
 {
   name: tephra
-  recoil: 2
+  recoil: 0
+  top: false
   shootSound: flame
   reload: 10
   range: 68
-  x: 4
+  x: 0
+  y: 0
   innacurracy: 5
   mirror: true
   bullet: {
