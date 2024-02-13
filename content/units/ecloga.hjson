@@ -1,0 +1,97 @@
+type: legs
+name: Tephra
+health: 1900
+description: A large support unit that heals allied structures and units.
+speed: 0.76
+hitSize: 30
+hovering: true
+rotateSpeed: 2.5
+legStraightness: 0.3
+allowLegStep: true
+legSpeed: 1.1
+legCount: 4
+stepShake: 0
+legLength: 28
+groundLayer: 74
+shadowElevation: 0.25
+legExtension: -3
+legMaxLength: 1.1
+legMinLength: 0.2
+legLengthScl: 0.95
+legContinuousMove: true
+legBaseOffset: 8
+legForwardScale: 0.7
+legGroupSize: 2
+lockLegBase: true
+legMoveSpace: 1
+allowLegStep: true
+legPhysicsLayer: false
+weapons: [
+{
+  name: heal-artillery
+  recoil: 0
+  top: false
+  shootSound: flame
+  reload: 10
+  range: 68
+  x: 0
+  y: 0
+  innacurracy: 5
+  mirror: true
+  mirror: false
+  bullet: {
+    type: BulletType
+    hitSize: 7
+    pierce: true
+    pierceBuildings: true
+    pierceCap: 2
+    shootEffect: {
+      cone: 5
+      type: ParticleEffect
+      colorFrom: 84f491
+      colorTo: ffffff
+      sizeFrom: 6
+      length: 68
+      particles: 12
+      lifetime: 45
+      }
+    hitEffect: hitFlamePlasma
+    despawnEffect: none
+    damage: 16
+    status: burning
+    healPercent: 1
+}
+}
+  {
+name: heal-point
+type: RepairBeamWeapon
+mirror: true
+repairSpeed: 0.4
+beamWidth: 0.5
+y: -2
+x: 10
+range: 96
+bullet: {
+  type: BulletType
+  maxRange: 96
+    }
+}
+{
+name: small-heal-def
+type: PointDefenseWeapon
+y: -6
+x: 0
+reload: 6
+mirror: true
+range: 128
+targetInterval: 7
+targetSwitchInterval: 9
+bullet: {
+    type: BulletType
+    damage: 18
+    maxRange: 128
+    hitEffect: pointHit
+    shootEffect: sparkShoot
+  }
+  }
+]
