@@ -10,6 +10,7 @@ legStraightness: 0.3
 allowLegStep: true
 legSpeed: 1.1
 legCount: 4
+stepShake: 0
 legLength: 16
 groundLayer: 74
 shadowElevation: 0.25
