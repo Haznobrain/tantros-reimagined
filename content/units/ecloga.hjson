@@ -121,6 +121,7 @@ weapons: [
   {
 name: heal-point
 type: RepairBeamWeapon
+noAttack: true
 mirror: true
 repairSpeed: 0.4
 beamWidth: 1
@@ -133,6 +134,7 @@ bullet: {
     }
 }
 {
+noAttack: true
 name: small-heal-def
 type: PointDefenseWeapon
 y: 10
