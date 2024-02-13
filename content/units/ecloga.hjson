@@ -59,8 +59,9 @@ weapons: [
       }
     frontColor: 84f491
     backColor: 84f491
-    height: 9
-    width: 6
+    trailColor: 84f491
+    height: 12
+    width: 14
     speed: 3
     lifetime: 75
     splashDamage: 85
