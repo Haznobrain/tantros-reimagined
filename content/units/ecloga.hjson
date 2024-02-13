@@ -135,8 +135,8 @@ bullet: {
 {
 name: small-heal-def
 type: PointDefenseWeapon
-y: -6
-x: 0
+y: 10
+x: 5
 reload: 6
 mirror: true
 range: 128
