@@ -31,14 +31,12 @@ weapons: [
   shootSound: ShootBig
   name: heal-artillery
   recoil: 3
-  top: false
   reload: 65
   range: 224
   x: 10
   y: -5
   innacurracy: 0
   mirror: true
-  mirror: false
   bullet: {
     scaledSplashDamage: true
     shootEffect: shootBig
@@ -124,7 +122,7 @@ type: RepairBeamWeapon
 mirror: true
 repairSpeed: 0.4
 beamWidth: 1
-y: -2
+y: 6
 x: 10
 range: 96
 bullet: {
