@@ -4,6 +4,7 @@ health: 1900
 description: A large support unit that heals allied structures and units.
 speed: 0.76
 hitSize: 30
+armor: 6
 hovering: true
 rotateSpeed: 2.5
 legStraightness: 0.3
