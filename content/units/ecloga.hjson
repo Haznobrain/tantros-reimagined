@@ -28,39 +28,45 @@ allowLegStep: true
 legPhysicsLayer: false
 weapons: [
 {
+  shootSound: ShootBig
   name: heal-artillery
   recoil: 0
   top: false
   shootSound: flame
-  reload: 10
-  range: 68
-  x: 0
-  y: 0
-  innacurracy: 5
+  reload: 65
+  range: 224
+  x: 6
+  y: -5
+  innacurracy: 0
   mirror: true
   mirror: false
   bullet: {
-    type: BulletType
-    hitSize: 7
-    pierce: true
-    pierceBuildings: true
-    pierceCap: 2
-    shootEffect: {
-      cone: 5
+    type: BasicBulletType
+    trailLength: 6
+    trailWidth: 3
+    scaleLife: true
+    shrinkY: 0.2
+    shrinkX: 0.5
+    trailInterval: 6
+    drag: 0.01
+    trailEffect: {
       type: ParticleEffect
+      length: 0
+      particles: 1
+      sizeFrom: 3
       colorFrom: 84f491
-      colorTo: ffffff
-      sizeFrom: 6
-      length: 68
-      particles: 12
-      lifetime: 45
+      colorTo: 84f491
       }
-    hitEffect: hitFlamePlasma
-    despawnEffect: none
-    damage: 16
-    status: burning
-    healPercent: 1
-}
+    frontColor: 84f491
+    backColor: 84f491
+    height: 9
+    width: 6
+    speed: 3
+    lifetime: 75
+    splashDamage: 85
+    hitEffect: {
+      
+}  
 }
   {
 name: heal-point
