@@ -151,3 +151,12 @@ bullet: {
   }
   }
 ]
+abilities: [
+  {
+  type: ShieldArcAbility
+  radius: 12
+  max: 500
+  cooldown: 600
+  region: ecloga-shield
+  }
+  ]
