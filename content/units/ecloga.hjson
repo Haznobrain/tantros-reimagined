@@ -157,6 +157,6 @@ abilities: [
   radius: 24
   max: 500
   cooldown: 600
-  region: ecloga-shield
+  region: tantrosmod-ecloga-shield
   }
   ]
