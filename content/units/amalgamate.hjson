@@ -1,1 +1,114 @@
-
+type: flying
+flying: true
+engineOffset: 38
+engineSize: 8
+engineColor: 6b85d4
+health: 21500
+hitSize: 80
+speed: 0.51
+description: A massive well-armored unit that drops massive explosive charges on ennemy targets.
+name: Amalgamate.
+armor: 22
+faceTarget: false
+circleTarget: true
+targetAir: false
+drag: 0.06
+weapons: [
+  {
+  minShootVelocity: 0.2
+  name: amalgamate
+  reload: 90
+  top: false
+  range: 128
+  shootCone: 360
+  x: 0
+  recoil: 0
+  mirror: false
+  shootSound: plasmadrop
+  backColor: ffa665
+  y: 0
+  shootEffect: {
+    type: ParticleEffect
+    particles: 0
+}
+  bullet: {
+    shootEffect: none
+    SmokeEffect: none
+    shrinkY: 0
+    height: 16
+    width: 16
+    sprite: tantrosmod-energy-star
+    lifetime: 75
+    maxRange: 60
+    collidesAir: false
+    type: BombBulletType
+    spin: 3
+    hitSound: plasmaboom
+    splashDamage: 390
+    splashDamageRadius: 160
+    ignoreRotation: true
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          sprite: tantrosmod-energy-star
+          spin: 0
+          length: 0
+          sizeFrom: 160
+          sizeTo: 0
+          lifetime: 25
+          colorTo: ffa665
+        }
+        {
+          lifetime: 25
+          type: WaveEffect
+          radFrom: 160
+          radTo: 160
+          strokeFrom: 4
+          colorTo: ffa665
+        }
+  ]
+}
+    despawnEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          sprite: tantrosmod-energy-star
+          spin: 0
+          length: 0
+          sizeFrom: 160
+          sizeTo: 0
+          lifetime: 25
+          colorTo: ffa665
+        }
+        {
+          lifetime: 25
+          type: WaveEffect
+          radFrom: 160
+          radTo: 160
+          strokeFrom: 4
+          colorTo: ffa665
+        }
+  ]
+}
+      }
+}
+{
+  name: t5-machinegun-mount
+  reload: 5
+  range: 176
+  shootSound: shootBig
+  shootEffect: shootBig
+  inaccuracy: 6
+  x: 16
+  y: -8
+  bullet: {
+    type: BasicBulletType
+    damage: 45
+    width: 8
+    height: 10
+    speed: 8
+    lifetime: 22
+    }
+}
+]
