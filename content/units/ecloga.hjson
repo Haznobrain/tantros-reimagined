@@ -39,6 +39,7 @@ weapons: [
   innacurracy: 0
   mirror: true
   bullet: {
+    absorbable: false
     scaledSplashDamage: true
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
