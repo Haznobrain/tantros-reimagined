@@ -85,8 +85,8 @@ weapons: [
         {
           lifetime: 25
           type: WaveEffect
-          radFrom: 160
-          radTo: 160
+          sizeFrom: 160
+          sizeTo: 160
           strokeFrom: 4
           colorTo: ffa665
         }
