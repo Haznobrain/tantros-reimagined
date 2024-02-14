@@ -11,6 +11,9 @@ name: Amalgamate
 lowAltitude: true
 armor: 22
 faceTarget: false
+immunities: [
+unmoving,
+]
 circleTarget: true
 targetAir: false
 drag: 0.06
