@@ -49,7 +49,6 @@ weapons: [
     shrinkY: 0.2
     shrinkX: 0.5
     trailInterval: 6
-    drag: 0.01
     trailEffect: {
       type: ParticleEffect
       length: 0
