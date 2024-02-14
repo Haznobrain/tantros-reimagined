@@ -7,7 +7,8 @@ health: 21500
 hitSize: 80
 speed: 0.51
 description: A massive well-armored unit that drops massive explosive charges on ennemy targets.
-name: Amalgamate.
+name: Amalgamate
+lowAltitude: true
 armor: 22
 faceTarget: false
 circleTarget: true
