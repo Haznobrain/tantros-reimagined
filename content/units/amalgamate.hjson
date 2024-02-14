@@ -63,8 +63,8 @@ weapons: [
         {
           lifetime: 25
           type: WaveEffect
-          radFrom: 160
-          radTo: 160
+          sizeFrom: 160
+          sizeTo: 160
           strokeFrom: 4
           colorTo: ffa665
         }
@@ -95,6 +95,7 @@ weapons: [
       }
 }
 {
+  rotate: true
   name: t5-machinegun-mount
   reload: 5
   range: 176
