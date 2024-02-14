@@ -38,7 +38,7 @@ weapons: [
     height: 16
     width: 16
     sprite: tantrosmod-energy-star
-    lifetime: 75
+    lifetime: 120
     maxRange: 60
     collidesAir: false
     type: BombBulletType
@@ -51,6 +51,7 @@ weapons: [
       type: MultiEffect
       effects: [
         {
+          particles: 1
           sprite: tantrosmod-energy-star
           spin: 0
           length: 0
