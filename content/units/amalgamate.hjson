@@ -48,6 +48,7 @@ weapons: [
     splashDamage: 390
     splashDamageRadius: 160
     ignoreRotation: true
+    layer: 80
     hitEffect: {
       type: MultiEffect
       lifetime: 25
