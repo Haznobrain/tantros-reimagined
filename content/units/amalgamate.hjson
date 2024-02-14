@@ -49,15 +49,15 @@ weapons: [
     ignoreRotation: true
     hitEffect: {
       type: MultiEffect
+      lifetime: 25
       effects: [
         {
           particles: 1
-          sprite: tantrosmod-energy-star
+          region: tantrosmod-energy-star
           spin: 0
           length: 0
           sizeFrom: 160
           sizeTo: 0
-          lifetime: 25
           colorTo: ffa665
         }
         {
