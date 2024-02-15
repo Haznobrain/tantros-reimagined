@@ -18,6 +18,8 @@ legBaseOffset: 16
 legForwardScale: 0.6
 legGroupSize: 5
 legMoveSpace: 1.8
+legSplashDamage: 45
+legSplashRadius: 24
 allowLegStep: true
 legPhysicsLayer: false
 weapons: [
