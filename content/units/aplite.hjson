@@ -54,8 +54,8 @@ weapons: [
           region: tantrosmod-railgun-effect
           rotWithParent: true
           colorTo: 84f491
-          sizeFrom: 24
-          sizeTo: 24
+          sizeFrom: 8
+          sizeTo: 8
           particles: 1
           lifetime: 12
           length: 0
