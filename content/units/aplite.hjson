@@ -1,6 +1,7 @@
 type: legs
-name: Loessa
+name: Aplite
 health: 8500
+armor: 11
 description: A powerful legged unit that shoots large railgun bolts and heals friendly units.
 speed: 0.56
 hitSize: 38
