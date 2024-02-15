@@ -11,3 +11,4 @@ buildSpeed: 1
 buildBeamOffset: 4
 engineOffset: 4
 hidden: true
+isEnemy: false
