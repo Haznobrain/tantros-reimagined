@@ -39,6 +39,7 @@ weapons: [
     type: RailBulletType
       damage: 250
       length: 336
+      pierceDamageFactor: 0.5
       lineEffect: {
           rotWithParent: true
           colorTo: 84f491
