@@ -39,9 +39,9 @@ weapons: [
       lineEffect: {
           rotWithParent: true
           colorTo: 84f491
-          line: true
+          sizeFrom: 24
+          sizeTo: 24
           particles: 1
-          lengthFrom: 24
           lifetime: 12
           length: 0
           cone: 0
@@ -49,16 +49,16 @@ weapons: [
     pointEffect: {
           rotWithParent: true
           colorTo: 84f491
-          line: true
+          sizeFrom: 24
+          sizeTo: 24
           particles: 1
-          lengthFrom: 24
           lifetime: 12
           length: 0
           cone: 0
             }
-      lifetime: 25
+      trailInterval: 24
       healPercent: 12.5
-            
+      collidesTeam: true
 }
 }
   {
