@@ -74,6 +74,25 @@ bullet: {
   maxRange: 152
     }
 }
+{
+noAttack: true
+name: heal-def
+type: PointDefenseWeapon
+y: 16
+x: 16
+reload: 5
+mirror: true
+range: 128
+targetInterval: 6
+targetSwitchInterval: 8
+bullet: {
+    type: BulletType
+    damage: 24
+    maxRange: 128
+    hitEffect: pointHit
+    shootEffect: sparkShoot
+  }
+  }
 ]
 abilities: [
 {
