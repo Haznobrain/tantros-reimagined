@@ -61,7 +61,7 @@ weapons: [
           length: 0
           cone: 0
             }
-      trailInterval: 8
+      trailInterval: 6
       healPercent: 12.5
       collidesTeam: true
 }
