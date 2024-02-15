@@ -31,7 +31,7 @@ weapons: [
   range: 336
   x: 19.25
   innacurracy: 5
-  shootEffect: instshoot
+  shootEffect: railShoot
   mirror: true
   bullet: {
     hitColor: 84f491
