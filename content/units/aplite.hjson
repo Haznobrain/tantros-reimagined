@@ -22,6 +22,7 @@ allowLegStep: true
 legPhysicsLayer: false
 weapons: [
 {
+  cooldownTime: 150
   tope: false
   name: aplite-railgun
   recoil: 4
