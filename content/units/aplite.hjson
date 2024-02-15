@@ -1,0 +1,87 @@
+type: legs
+name: Loessa
+health: 8500
+description: A powerful legged unit that shoots large railgun bolts and heals friendly units.
+speed: 0.56
+hitSize: 38
+hovering: true
+rotateSpeed: 1.95
+legStraightness: 0.3
+allowLegStep: true
+legSpeed: 1.1
+legCount: 4
+legLength: 48
+groundLayer: 74
+  shadowElevation: 0.4
+legBaseOffset: 3
+legForwardScale: 0.6
+legGroupSize: 5
+legMoveSpace: 1.8
+allowLegStep: true
+legPhysicsLayer: false
+weapons: [
+{
+  name: aplite-railgun
+  recoil: 4
+  shootSound: railgun
+  reload: 150
+  range: 336
+  x: 19.25
+  innacurracy: 5
+  mirror: true
+  bullet: {
+    hitColor: 84f491
+    backColor: 84f491
+    type: RailBulletType
+      damage: 250
+      length: 336
+      lineEffect: {
+          rotWithParent: true
+          colorTo: 84f491
+          line: true
+          particles: 1
+          lengthFrom: 24
+          lifetime: 12
+          length: 0
+          cone: 0
+            }
+    pointEffect: {
+          rotWithParent: true
+          colorTo: 84f491
+          line: true
+          particles: 1
+          lengthFrom: 24
+          lifetime: 12
+          length: 0
+          cone: 0
+            }
+      lifetime: 25
+      healPercent: 12.5
+            
+}
+}
+  {
+name: heal-point
+type: RepairBeamWeapon
+mirror: true
+repairSpeed: 2
+beamWidth: 0.5
+y: -6
+x: 12
+range: 152
+bullet: {
+  type: BulletType
+  maxRange: 152
+    }
+}
+]
+abilities: [
+{
+  type: SuppressionFieldAbility
+  orbRadius: 5.6
+  y: 45
+  particleColor: 84f491
+  effectColor: 84f491
+}
+  ]
+  
