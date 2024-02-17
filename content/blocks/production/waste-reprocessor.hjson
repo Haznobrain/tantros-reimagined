@@ -40,7 +40,7 @@ drawer: {
       }
       {
         type: DrawLiquidTile
-        liquid: diluted-waste
+        drawLiquid: diluted-waste
         suffix: -top
       }
       {
