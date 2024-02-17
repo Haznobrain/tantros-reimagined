@@ -7,7 +7,7 @@ liquidCapacity: 60
 consumes: {
     power: 2.3
     liquids: [
-      brine/1
+      brine/0.2
     ]
     items: [
       waste/1
