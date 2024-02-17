@@ -7,3 +7,7 @@ flammabality: 0
 charge: 0
 radioactivity: 0
 hardness: 1
+hiddenOnPlanets:[
+  erekir,
+  serpulo,
+  ]
