@@ -4,6 +4,7 @@ range: 376
 maxAmmo: 90
 reload: 130
 size: 3
+category: turret
 moveWhileCharging: false
 shoot: {
   type: ShootHelix
@@ -26,7 +27,7 @@ name: Quake
 description: Fires a massive explosive helix shot at ennemy ground targets. 
 unitSort: strongest
 shootSound: laserblast
-chargeSound: laserCharge
+chargeSound: lasercharge
 recoil: 5
 shake: 4
 ammoTypes: {
@@ -54,6 +55,7 @@ waste: {
     buildingDamageMultiplier: 0.2
     splashDamage: 210
     scaledSplashDamage: true
+    splashDamageRadius: 48
     collidesAir: false
     despawnShake: 2
     chargeEffect: {
@@ -92,14 +94,14 @@ hitEffect: {
           effect: [
         {
         type: ParticleEffect
-        length: 24
+        length: 48
         particles: 8
         SizeTo: 8
         lifetime: 120
         }
         {
         type: WaveEffect
-        sizeTo: 24
+        sizeTo: 48
         sizeFrom: 0
         colorFrom: 80dc72
         colorTo: 80dc72
@@ -109,7 +111,35 @@ hitEffect: {
            {
         type: ParticleEffect
         line: true
-        length: 24
+        length: 48
+        particles: 8
+        LengthFrom: 8
+        lifetime: 65
+        }
+      ]
+}
+despawnEffect:  {
+        type: MultiEffect
+          effect: [
+        {
+        type: ParticleEffect
+        length: 48
+        particles: 8
+        SizeTo: 8
+        lifetime: 120
+        }
+        {
+        type: WaveEffect
+        sizeTo: 48
+        sizeFrom: 0
+        colorFrom: 80dc72
+        colorTo: 80dc72
+        strokeTo: 4
+        }
+           {
+        type: ParticleEffect
+        line: true
+        length: 48
         particles: 8
         LengthFrom: 8
         lifetime: 65
