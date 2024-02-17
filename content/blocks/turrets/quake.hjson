@@ -5,7 +5,20 @@ maxAmmo: 90
 reload: 130
 moveWhileCharging: false
 shoot: {
+  type: ShootHelix
   firstShotDelay: 65
+  scl: 4
+  mag: 1.5
+  shots: 2
+    }
+consumes: {
+  power: 16
+  liquids: [
+    diluted-waste/0.75
+  ]
+  coolant: {
+    amount: 0.5
+    }
     }
 targetAir: false
 name: Quake
@@ -15,3 +28,97 @@ shootSound: laserblast
 chargeSound: laserCharge
 recoil: 5
 shake: 4
+ammoTypes: {
+waste: {
+    type: BasicBulletType
+    scaleLife: true
+    sprite: large-orb
+    backColor: 80dc72
+    trailLength: 24
+    trailColor: 80dc72
+    trailEffect: {
+      type: ParticleEffect
+      particles: 1
+      sizeFrom: 4
+      colorFrom: 80dc72
+      colorTo: 80dc72
+      lifetime: 75
+      }
+    speed: 4.5
+    lifetime: 84
+    trailInterval: 6
+    damage: 0
+    buildingDamageMultiplier: 0.2
+    splashDamage: 210
+    scaledSplashDamage: true
+    collidesAir: false
+    despawnShake: 2
+    chargeEffect: {
+        type: MultiEffect
+          effect: [
+        {
+        type: ParticleEffect
+        length: 0
+        baseLength: 24
+        particles: 8
+        SizeFrom: 8
+        lifetime: 65
+        }
+        {
+        type: WaveEffect
+        sizeFrom: 24
+        sizeTo: 0
+        colorFrom: 80dc72
+        colorTo: 80dc72
+        lifetime: 65
+        strokeFrom: 4
+        }
+           {
+        type: ParticleEffect
+        length: 0
+        line: true
+        baseLength: 24
+        particles: 8
+        LengthFrom: 8
+        lifetime: 65
+        }
+      ]
+}
+hitEffect: {
+        type: MultiEffect
+          effect: [
+        {
+        type: ParticleEffect
+        length: 24
+        particles: 8
+        SizeTo: 8
+        lifetime: 120
+        }
+        {
+        type: WaveEffect
+        sizeTo: 24
+        sizeFrom: 0
+        colorFrom: 80dc72
+        colorTo: 80dc72
+        lifetime: 65
+        strokeTo: 4
+        }
+           {
+        type: ParticleEffect
+        line: true
+        length: 24
+        particles: 8
+        LengthFrom: 8
+        lifetime: 65
+        }
+      ]
+}
+}
+}
+requirements: [
+    waste/450
+    aluminium/400
+    thorium/350
+    aggregate/150
+    ]
+research: incise
