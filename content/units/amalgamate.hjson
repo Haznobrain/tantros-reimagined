@@ -37,7 +37,7 @@ weapons: [
 }
   bullet: {
     shootEffect: none
-    SmokeEffect: none
+    smokeEffect: none
     shrinkY: 0
     height: 16
     width: 16
