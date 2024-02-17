@@ -3,6 +3,7 @@ AmmoPerShot: 10
 range: 376
 maxAmmo: 90
 reload: 130
+size: 3
 moveWhileCharging: false
 shoot: {
   type: ShootHelix
