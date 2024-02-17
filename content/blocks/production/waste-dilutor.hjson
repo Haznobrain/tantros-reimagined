@@ -1,0 +1,49 @@
+name: Waste dilutor
+description: Dissolves waste in brine.
+type: GenericCrafter
+size: 1
+outputLiquid: diluted-waste/0.5
+liquidCapacity: 60
+consumes: {
+    power: 2.3
+    liquids: [
+      brine/1
+    ]
+    items: [
+      waste/1
+    ]
+}
+
+// Crafts 1nce every 1 seconds.
+craftTime: 60
+
+requirements: [
+aluminium/40
+aggregate/10
+]
+
+research: desalinator
+category: crafting
+ drawer: {
+     type: DrawMulti
+     drawers: [
+         {
+         type: DrawRegion
+         suffix: -bottom
+         }
+         {
+         type: DrawLiquidTile
+         suffix: -top
+         drawLiquid: brine
+        }
+           {
+         type: DrawLiquidTile
+         suffix: -top
+         drawLiquid: diluted-waste
+        }
+        {
+       type: DrawRegion
+        suffix: -top
+         }
+ ]
+ }
