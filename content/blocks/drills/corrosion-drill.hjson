@@ -6,8 +6,6 @@ consumes: {
   liquids: {
       liquid: brine
       amount: 0.05
-      optional: false
-      booster: false
       }
     power: 2.5
     }
