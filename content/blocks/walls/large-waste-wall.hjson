@@ -1,7 +1,7 @@
 type: wall
 health: 2940
 armor: 12
-size: 1
+size: 2
 name: Large packed waste wall
 description: a wall that blocks and reflects ennemy projectiles, sometimes also creating lightning.
 requirements: [
