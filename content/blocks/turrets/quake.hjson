@@ -1,0 +1,17 @@
+type: ItemTurret
+AmmoPerShot: 10
+range: 376
+maxAmmo: 90
+reload: 130
+moveWhileCharging: false
+shoot: {
+  firstShotDelay: 65
+    }
+targetAir: false
+name: Quake
+description: Fires a massive explosive helix shot at ennemy ground targets. 
+unitSort: strongest
+shootSound: laserblast
+chargeSound: laserCharge
+recoil: 5
+shake: 4
