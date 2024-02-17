@@ -31,3 +31,26 @@ results: [
       limestone/150
       thorium/150
       ]
+drawer: {
+  type: DrawMulti
+  drawers: [
+      {
+      type: DrawRegion
+      suffix: -bottom
+      }
+      {
+        type: DrawLiquidTile
+        liquid: diluted-waste
+        suffix: -top
+      }
+      {
+        type: DrawRegion
+        rotateSpeed: 4.5
+        suffix: -spinner
+      }
+      {
+        suffix: -top
+        type: DrawRegion
+      }
+  ]
+}
