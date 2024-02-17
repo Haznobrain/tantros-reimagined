@@ -35,7 +35,7 @@ weapons: [
     trailEffect: {
       type: ParticleEffect
       particles: 1
-      sprite: tantrosmod-bubble
+      region: tantrosmod-bubble
       lifetime: 30
       sizeTo: 3
       sizeFrom: 3
