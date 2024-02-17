@@ -1,0 +1,19 @@
+type: wall
+health: 735
+armor: 12
+size: 1
+name: Packed waste wall
+description: a wall that blocks and reflects ennemy projectiles, sometimes also creating lightning.
+requirements: [
+  aggregate/2
+  waste/4
+  thorium/4
+]
+lightningChance: 0.05
+lightningColor: 80dc72
+lightningDamage: 13
+chanceDeflect	: 8
+category: defense
+research: {
+  parent: large-armored-aggregate-wall
+}
