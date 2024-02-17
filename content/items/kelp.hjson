@@ -6,3 +6,7 @@ explosiveness: 0
 flammabality: 1
 charge: 0
 radioactivity: 0
+hiddenOnPlanets:[
+  erekir,
+  serpulo,
+  ]
