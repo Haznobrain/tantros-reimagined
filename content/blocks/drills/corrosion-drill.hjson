@@ -4,8 +4,7 @@ tier: 4
 type: drill
 consumes: {
   liquids: {
-      liquid: brine
-      amount: 0.05
+      brine/0.05
       }
     power: 2.5
     }
