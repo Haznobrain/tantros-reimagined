@@ -67,6 +67,8 @@ waste: {
         baseLength: 24
         particles: 8
         SizeFrom: 8
+        colorFrom: 80dc72
+        colorTo: 80dc72
         lifetime: 65
         }
         {
@@ -81,6 +83,8 @@ waste: {
            {
         type: ParticleEffect
         length: 0
+        colorFrom: 80dc72
+        colorTo: 80dc72
         line: true
         baseLength: 24
         particles: 8
@@ -95,6 +99,8 @@ hitEffect: {
         {
         type: ParticleEffect
         length: 48
+        colorFrom: 80dc72
+        colorTo: 80dc72
         particles: 8
         SizeTo: 8
         lifetime: 120
@@ -112,6 +118,8 @@ hitEffect: {
         type: ParticleEffect
         line: true
         length: 48
+        colorFrom: 80dc72
+        colorTo: 80dc72
         particles: 8
         LengthFrom: 8
         lifetime: 65
@@ -126,6 +134,8 @@ despawnEffect:  {
         length: 48
         particles: 8
         SizeTo: 8
+        colorFrom: 80dc72
+        colorTo: 80dc72
         lifetime: 120
         }
         {
@@ -139,6 +149,8 @@ despawnEffect:  {
            {
         type: ParticleEffect
         line: true
+        colorFrom: 80dc72
+        colorTo: 80dc72
         length: 48
         particles: 8
         LengthFrom: 8
