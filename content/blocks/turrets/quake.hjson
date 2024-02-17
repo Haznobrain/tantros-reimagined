@@ -60,7 +60,7 @@ waste: {
     despawnShake: 2
     chargeEffect: {
         type: MultiEffect
-          effect: [
+          effects: [
         {
         type: ParticleEffect
         length: 0
@@ -91,7 +91,7 @@ waste: {
 }
 hitEffect: {
         type: MultiEffect
-          effect: [
+          effects: [
         {
         type: ParticleEffect
         length: 48
@@ -120,7 +120,7 @@ hitEffect: {
 }
 despawnEffect:  {
         type: MultiEffect
-          effect: [
+          effects: [
         {
         type: ParticleEffect
         length: 48
