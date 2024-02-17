@@ -1,0 +1,23 @@
+name: Corrosion drill
+description: Breaks apart ores by corroding them with brine.
+tier: 4
+type: drill
+consumes: {
+  liquids: [
+    brine/0.05
+      ]
+    power: 2.5
+    }
+drillTime: 300
+liquidBoostIntensity: 1.62
+size: 3
+requirements: [
+  aluminium/150
+  salt/65
+  aggregate/45
+  thorium/30
+]
+category: production
+research: {
+  parent: current-drill
+}
