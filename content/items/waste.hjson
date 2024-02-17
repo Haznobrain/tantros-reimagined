@@ -1,1 +1,14 @@
 type: item
+name: Radioactive waste
+description: Remnants of nuclear fission. Can be processed to extract materials.
+color: 80dc72
+healthScaling: 0.2
+hardness: 4
+explosiveness: 0.9
+flammabality: 0
+charge: 0
+radioactivity: 2.5
+hiddenOnPlanets:[
+  erekir,
+  serpulo,
+  ]
