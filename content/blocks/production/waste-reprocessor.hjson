@@ -1,0 +1,31 @@
+type: separator
+liquidCapacity: 90
+name: Waste reprocessor
+description: Extracts useful materials from radioactive waste.
+craftTime: 4.5
+spinnerSpeed: 5.6
+  hasItems: true
+  hasLiquids: true
+  hasPower: true
+consumes: {
+  power: 6
+      liquids: [
+          diluted-waste/0.5
+          ]
+      items: [
+          waste/3
+        ]
+    }
+results: [
+    aluminium/20
+    sand/20
+    thorium/15
+    salt/15
+    sand/30
+  ]
+  requirements: [
+      aluminium/250
+      salt/400
+      limestone/150
+      thorium/150
+      ]
