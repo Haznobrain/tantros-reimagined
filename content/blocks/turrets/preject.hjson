@@ -1,0 +1,257 @@
+type: ItemTurret
+AmmoPerShot: 15
+range: 472
+maxAmmo: 90
+reload: 300
+size: 4
+category: turret
+moveWhileCharging: false
+cooldownTime: 245
+shoot: {
+  type: ShootHelix
+  firstShotDelay: 65
+  scl: 4
+  mag: 1.5
+  shots: 2
+    }
+consumes: {
+  power: 16
+  liquids: [
+    diluted-waste/0.75
+  ]
+  coolant: {
+    amount: 0.5
+    }
+    }
+targetAir: false
+name: Preject
+description: Shoots a long range laser, a shorter range explosive helix, and a spread of short range, high-knockback bullets.
+unitSort: strongest
+shootSound: laserblast
+chargeSound: lasercharge
+recoil: 5
+shake: 8
+ammoTypes: {
+waste: {
+    shootEffect: none
+    smokeEffect: none
+    type: BasicBulletType
+    scaleLife: true
+    sprite: large-orb
+    backColor: 80dc72
+    trailLength: 24
+    trailColor: 80dc72
+    trailEffect: {
+      type: ParticleEffect
+      particles: 1
+      sizeFrom: 4
+      colorFrom: 80dc72
+      colorTo: 80dc72
+      lifetime: 75
+      }
+    speed: 4.5
+    lifetime: 84
+    trailInterval: 6
+    damage: 0
+    buildingDamageMultiplier: 0.2
+    splashDamage: 210
+    scaledSplashDamage: true
+    splashDamageRadius: 48
+    collidesAir: false
+    despawnShake: 2
+    spawnBullets: [
+      {
+          type: LaserBulletType
+          length: 472
+          damage: 210
+          lightningSpacing: 16
+          lightningLength: 14
+          lightningLengthRand: 6
+          lightningColor: 80dc72
+          colors: [80dc72, cdffc6, ffffff]
+          lightningDamage: 14
+          width: 24
+          lifetime: 96
+      }
+      {
+          type: BulletType
+          instantDisappear: true
+          fragBullets: 5
+          fragSpread: 10
+          fragRandomSpread: 0
+          fragBullet: {
+              type: BasicBulletType
+              speed: 5
+              lifetime: 32
+              damage: 45
+              splashDamage: 15
+              splashDamageRadius: 8
+              hitEffect: {
+                  type: ExplosionEffect
+                  waveColor: 80dc72
+                  smokeColor: 80dc72
+                  sparkColor: 80dc72
+                  smokeRad: 8
+                  waveRad: 8
+                    }
+          }
+      }
+  ]
+    chargeEffect: {
+        type: MultiEffect
+          effects: [
+        {
+        type: ParticleEffect
+        length: 0
+        baseLength: 24
+        particles: 8
+        sizeTo: 8
+        colorFrom: 80dc72
+        colorTo: 80dc72
+        lifetime: 65
+        sizeFrom: 0
+        }
+        {
+        type: WaveEffect
+        sizeFrom: 24
+        sizeTo: 0
+        colorFrom: 80dc72
+        colorTo: 80dc72
+        lifetime: 65
+        strokeFrom: 4
+        }
+           {
+        type: ParticleEffect
+        length: 0
+        colorFrom: 80dc72
+        colorTo: 80dc72
+        line: true
+        baseLength: 24
+        particles: 8
+        LengthTo: 8
+        lengthFrom: 0
+        strokeFrom: 0
+        strokeTo: 2
+        lifetime: 65
+        }
+      ]
+}
+hitEffect: {
+        type: MultiEffect
+          effects: [
+        {
+        type: ParticleEffect
+        length: 48
+        colorFrom: 80dc72
+        colorTo: 80dc72
+        particles: 8
+        SizeTo: 8
+        lifetime: 120
+        }
+        {
+        type: WaveEffect
+        sizeTo: 48
+        sizeFrom: 0
+        colorFrom: 80dc72
+        colorTo: 80dc72
+        lifetime: 65
+        strokeTo: 4
+        }
+           {
+        type: ParticleEffect
+        line: true
+        length: 48
+        colorFrom: 80dc72
+        colorTo: 80dc72
+        particles: 8
+        LengthFrom: 8
+        lifetime: 65
+        }
+      ]
+}
+despawnEffect:  {
+        type: MultiEffect
+          effects: [
+        {
+        type: ParticleEffect
+        length: 48
+        particles: 8
+        SizeTo: 8
+        colorFrom: 80dc72
+        colorTo: 80dc72
+        lifetime: 120
+        }
+        {
+        type: WaveEffect
+        sizeTo: 48
+        sizeFrom: 0
+        colorFrom: 80dc72
+        colorTo: 80dc72
+        strokeTo: 4
+        }
+           {
+        type: ParticleEffect
+        line: true
+        colorFrom: 80dc72
+        colorTo: 80dc72
+        length: 48
+        particles: 8
+        LengthFrom: 8
+        lifetime: 65
+        }
+      ]
+}
+height: 8
+width: 8
+}
+}
+requirements: [
+    waste/900
+    aluminium/700
+    thorium/700
+    aggregate/400
+    ]
+research: quake
+  drawer: {
+    type: DrawTurret
+      parts: [
+      {
+    type: RegionPart
+    suffix: -middle
+    moveY: -6
+    progress: recoil
+      }
+        {
+  type: RegionPart
+  x: 0
+  y: 0
+  progress: {
+    type: warmup
+    op: blend
+    other: recoil
+    amount: 0.5
+    }
+  suffix: -arm-top
+  mirror: true
+  moveY: -8
+  moveX: 4
+  }
+  {
+  type: RegionPart
+  x: 0
+  y: 0
+  progress: {
+    type: warmup
+    op: blend
+    other: reload
+    amount: 0.5
+}
+  suffix: -arm
+  mirror: true
+  moveRot: -45
+  moveY: 0
+  moveX: 4
+  }
+]
+}
+    
