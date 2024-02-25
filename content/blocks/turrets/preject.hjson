@@ -15,12 +15,12 @@ shoot: {
   shots: 2
     }
 consumes: {
-  power: 16
+  power: 24
   liquids: [
-    diluted-waste/0.75
+    diluted-waste/1
   ]
   coolant: {
-    amount: 0.5
+    amount: 1.25
     }
     }
 targetAir: false
@@ -84,6 +84,7 @@ waste: {
           backColor: 80dc72
           sprite: missile
           fragBullet: {
+              knockback: 4.5
               type: BasicBulletType
               speed: 5
               lifetime: 32
