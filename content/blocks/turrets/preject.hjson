@@ -77,6 +77,7 @@ waste: {
           type: BulletType
           instantDisappear: true
           fragBullets: 5
+          fragVelocityMin: 1
           fragSpread: 10
           fragRandomSpread: 0
           backColor: 80dc72
@@ -88,6 +89,8 @@ waste: {
               damage: 45
               splashDamage: 15
               splashDamageRadius: 8
+              backColor: 80dc72
+              sprite: large-missile
               hitEffect: {
                   type: ExplosionEffect
                   waveColor: 80dc72
