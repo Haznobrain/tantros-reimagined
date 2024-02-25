@@ -36,7 +36,7 @@ waste: {
     shootEffect: none
     smokeEffect: none
     type: BasicBulletType
-    scaleLife: true
+    scaleLife: false
     sprite: large-orb
     backColor: 80dc72
     trailLength: 24
@@ -79,6 +79,8 @@ waste: {
           fragBullets: 5
           fragSpread: 10
           fragRandomSpread: 0
+          backColor: 80dc72
+          sprite: missile
           fragBullet: {
               type: BasicBulletType
               speed: 5
