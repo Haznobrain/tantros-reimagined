@@ -64,7 +64,7 @@ waste: {
           type: LaserBulletType
           length: 472
           damage: 210
-          lightningSpacing: 16
+          lightningSpacing: 64
           lightningLength: 14
           lightningLengthRand: 6
           lightningColor: 80dc72
@@ -72,6 +72,7 @@ waste: {
           lightningDamage: 14
           width: 24
           lifetime: 96
+          lightningDelay: 0.1
       }
       {
           type: BulletType
@@ -90,7 +91,15 @@ waste: {
               splashDamage: 15
               splashDamageRadius: 8
               backColor: 80dc72
-              sprite: large-missile
+              sprite: missile-large
+              trailChance: 0.2
+              trailEffect: {
+                length: 0
+                particles: 1
+                type: ParticleEffect
+                colorFrom: 80dc72
+                colorTo: 80dc72
+              }
               hitEffect: {
                   type: ExplosionEffect
                   waveColor: 80dc72
