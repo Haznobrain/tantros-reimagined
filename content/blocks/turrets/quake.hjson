@@ -68,10 +68,11 @@ waste: {
         length: 0
         baseLength: 24
         particles: 8
-        SizeFrom: 8
+        sizeTo: 8
         colorFrom: 80dc72
         colorTo: 80dc72
         lifetime: 65
+        sizeFrom: 0
         }
         {
         type: WaveEffect
@@ -90,7 +91,10 @@ waste: {
         line: true
         baseLength: 24
         particles: 8
-        LengthFrom: 8
+        LengthTo: 8
+        lengthFrom: 0
+        strokeFrom: 0
+        strokeTo: 2
         lifetime: 65
         }
       ]
