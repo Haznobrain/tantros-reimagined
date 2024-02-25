@@ -6,6 +6,8 @@ reload: 130
 size: 3
 category: turret
 moveWhileCharging: false
+cooldownTime: 90
+heatColor: ff0000
 shoot: {
   type: ShootHelix
   firstShotDelay: 65
