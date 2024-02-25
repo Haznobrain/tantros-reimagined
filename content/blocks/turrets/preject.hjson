@@ -72,7 +72,7 @@ waste: {
           lightningDamage: 14
           width: 24
           lifetime: 96
-          lightningDelay: 0.1
+          lightningDelay: 0.3
       }
       {
           type: BulletType
