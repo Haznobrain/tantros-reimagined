@@ -224,6 +224,7 @@ research: quake
     progress: recoil
       }
         {
+  moveRot: -30
   type: RegionPart
   x: 0
   y: 0
@@ -245,7 +246,7 @@ research: quake
   progress: {
     type: warmup
     op: blend
-    other: reload
+    other: recoil
     amount: 0.5
 }
   suffix: -arm
