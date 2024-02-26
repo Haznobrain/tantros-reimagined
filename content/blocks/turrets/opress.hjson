@@ -1,0 +1,5 @@
+type: PowerTurret
+name: Opress
+description: Pulls ennemy targets towards itself with sapping bullets.
+range: 100
+consumes: 
