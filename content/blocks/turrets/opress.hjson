@@ -54,6 +54,10 @@ drawer: {
           type: RegionPart
           progress: recoil
         }
+        {
+          suffix: -bottom
+          type: RegionPart
+        }
 ]
 }
 requirements: [
