@@ -17,3 +17,4 @@ category: defense
 research: {
   parent: waste-wall
 }
+research: w-waste-wall
