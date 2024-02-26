@@ -2,4 +2,63 @@ type: PowerTurret
 name: Opress
 description: Pulls ennemy targets towards itself with sapping bullets.
 range: 100
-consumes: 
+scaledHealth: 300
+consumes: {
+  power: 8
+  coolant: {
+    amount: 0.5
+    }
+    }
+reload: 10
+shoot: {
+  type: ShootBarrel
+      barrels: [
+        -9.75, 11, 0,
+        0, 11, 0,
+        9.75, 11, 0,
+                ]
+}
+shootType: {
+  type: SapBulletType
+  knockback: -3
+  damage: 95
+  length: 100
+  hitColor: 985bb0
+  color: 985bb0
+  }
+drawer: {
+    type: DrawTurret
+      parts: [
+        {
+          suffix: -barrel1
+          moveY: -4
+          recoilIndex: 2
+          under: true
+          type: RegionPart
+          progress: recoil
+        }
+        {
+          suffix: -barrel2
+          moveY: -4
+          recoilIndex: 1
+          under: true
+          type: RegionPart
+          progress: recoil
+        }
+        {
+          suffix: -barrel3
+          moveY: -4
+          recoilIndex: 0
+          under: true
+          type: RegionPart
+          progress: recoil
+        }
+]
+}
+requirements: [
+    aluminium/400
+    aggregate/400
+    basalt/200
+    salt/150
+    thorium/200
+  ]
