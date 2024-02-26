@@ -31,6 +31,7 @@ results: [
       limestone/150
       thorium/150
       ]
+research: waste-dilutor
 drawer: {
   type: DrawMulti
   drawers: [
