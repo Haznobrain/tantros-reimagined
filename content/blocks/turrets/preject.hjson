@@ -225,7 +225,7 @@ requirements: [
     aluminium/700
     thorium/700
     aggregate/400
-    basalt/200
+    basalt-item/200
     ]
 research: quake
   drawer: {
