@@ -14,6 +14,7 @@ shoot: {
   mag: 1.5
   shots: 2
     }
+coolantMultiplier: 1.2
 consumes: {
   power: 24
   liquids: [
