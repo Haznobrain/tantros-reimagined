@@ -1,0 +1,11 @@
+planet: tantroz
+sector: 16
+research: {
+    parent: subsurface-fault
+}
+localizedName: Wasted wrecks
+description: Wrecks of destroyed spacecrafts and units remain here. This sector is ressource poor, researching waste recycling technology may be necessary for survival.
+difficulty: 9
+alwaysUnlocked: false
+overrideLaunchDefaults: true
+captureWave: 52
