@@ -1,0 +1,12 @@
+name: Basalt
+description: And hard rock used as base material for higher tier blocks.
+color: 515151
+healthScaling: 0.2
+explosiveness: 0
+flammabality: 0
+charge: 0
+radioactivity: 0
+hiddenOnPlanets:[
+  erekir,
+  serpulo,
+  ]
