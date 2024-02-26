@@ -2,6 +2,7 @@ type: PowerTurret
 name: Opress
 description: Pulls ennemy targets towards itself with sapping bullets.
 range: 100
+size: 4
 scaledHealth: 300
 consumes: {
   power: 8
