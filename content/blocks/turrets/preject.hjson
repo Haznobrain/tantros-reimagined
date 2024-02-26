@@ -65,6 +65,7 @@ waste: {
           type: LaserBulletType
           length: 472
           damage: 210
+          largeHit: true
           lightningSpacing: 64
           lightningLength: 14
           lightningLengthRand: 6
