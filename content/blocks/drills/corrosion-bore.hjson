@@ -1,1 +1,23 @@
 type: BeamDrill
+name: Corrosion bore
+description: Breaks apart wall ores with jets of acidic material.
+tier: 4
+consumes: {
+  liquids: [
+      diluted-waste/0.05
+      ]
+    power: 2
+    }
+drillTime: 500
+liquidBoostIntensity: 1.62
+size: 2
+requirements: [
+  aluminium/150
+  salt/65
+  aggregate/45
+  waste/30
+]
+category: production
+research: {
+  parent: corrosion-drill
+}
