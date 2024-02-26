@@ -22,7 +22,12 @@ aluminium/40
 aggregate/10
 ]
 
-research: desalinator
+research:{
+        parent: desalinator
+            objectives: [
+                wasted-wrecks
+                ]
+    }
 category: crafting
  drawer: {
      type: DrawMulti
