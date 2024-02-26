@@ -58,7 +58,7 @@ drawer: {
 requirements: [
     aluminium/400
     aggregate/400
-    basalt/200
+    basalt-item/200
     salt/150
     thorium/200
   ]
