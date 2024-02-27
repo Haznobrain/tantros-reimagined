@@ -18,3 +18,5 @@ research: {
   parent: waste-wall
 }
 research: w-waste-wall
+absorbLasers: true
+insulated: true
