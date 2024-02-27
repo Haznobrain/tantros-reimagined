@@ -63,7 +63,7 @@ ammoTypes: {
     heatColor: ff0000
     progress: recoil
     type: RegionPart
-    suffix: -barrel
+    suffix: -barrel1
     y: 0
     x: 0
     moveY: -3
