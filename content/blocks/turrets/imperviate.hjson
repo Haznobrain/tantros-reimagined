@@ -1,0 +1,95 @@
+type: ItemTurret
+name: Imperviate
+description: Fires massive bursts of anti air missiles
+continuous: false
+shootSound: none
+loopSound: none
+recoil: 0
+size: 4
+category: turret
+predictTarget: false
+range: 576
+  recoils: 2
+  targetGround: false
+  consumeAmmoOnce: false
+  targetAir: true
+  cooldownTime: 1200
+  reload: 1200
+  shoot: {
+      type: ShootMulti
+          source: {
+              type: ShootBarrel
+                barrels: [
+                    -10.75, -1, 0
+                    10.75, -1, 0 
+                ]
+                }
+      dest: [
+          type: ShootPattern
+            shots: 20
+            shotDelay: 30
+              ]
+        }
+  consumes: {
+    power: 5
+      }
+ammoTypes: {
+    aggregate: {
+    ammoMultiplier: 1
+    spawnUnit: tantrosmod-aa-missile
+    shootEffect: {
+      type: ParticleEffect
+      line: true
+      cone: 10
+      length: 12
+      colorFrom: b6b6b6
+      colorTo: 6d6d6d
+      lifetime: 10
+      }
+      }
+      requirements: [
+        aluminium/400
+        limestone/250
+        aggregate/120
+]
+      drawer: {
+        type: DrawTurret
+          parts: [
+    {
+    heatProgress: recoil
+    heatColor: ff0000
+    progress: recoil
+    type: RegionPart
+    suffix: -barrel
+    y: 0
+    x: 0
+    moveY: -3
+    type: RegionPart
+    moveX: 0
+    recoilIndex: 1
+      }
+    {
+    progress: recoil
+    heatProgress: recoil
+    heatColor: ff0000
+    type: RegionPart
+    suffix: -barrel2
+    y: 0
+    x: 0
+    type: RegionPart
+    moveY: -3
+    moveX: 0
+    recoilIndex: 0
+      }
+{
+    suffix: -middle
+    type: RegionPart
+      }
+]
+      }
+research:{
+parent: pillar
+  objectives: [
+    wasted-wrecks
+    ]
+}
