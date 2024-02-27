@@ -27,7 +27,7 @@ range: 576
       dest: [
           type: ShootPattern
             shots: 20
-            shotsDelay: 30
+            shotDelay: 30
               ]
         }
   consumes: {
