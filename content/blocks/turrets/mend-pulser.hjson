@@ -12,13 +12,15 @@ targetAir: false
 shootSound: none
 continuous: true
 shootType: {
-    type: PointLaserBulletType
-    trailSpacing: 1
-color: 84f491
+    type: LaserBulletType
+width: 2
+  
+colors: [84f491, 9ef2a8, ffffff]
+    length: 100
   damage: 0
   healPercent: 10
 damageInterval: 60
-  collidesTeam: true
+  collidesTeam: true 
     }
 requirements: [
       thorium/200
