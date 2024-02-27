@@ -31,6 +31,9 @@ range: 576
               ]
         }
   consumes: {
+  coolant: {
+      amount: 0.5
+        }
     power: 5
       }
 ammoTypes: {
