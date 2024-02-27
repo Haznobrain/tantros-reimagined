@@ -27,7 +27,7 @@ range: 576
       dest: [
           type: ShootPattern
             shots: 20
-            shotDelay: 30
+            shotsDelay: 30
               ]
         }
   consumes: {
@@ -69,7 +69,7 @@ ammoTypes: {
     moveY: -3
     type: RegionPart
     moveX: 0
-    recoilIndex: 1
+    recoilIndex: 0
       }
     {
     progress: recoil
@@ -82,7 +82,7 @@ ammoTypes: {
     type: RegionPart
     moveY: -3
     moveX: 0
-    recoilIndex: 0
+    recoilIndex: 1
       }
 {
     suffix: -middle
