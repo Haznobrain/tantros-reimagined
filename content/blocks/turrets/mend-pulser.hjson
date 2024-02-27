@@ -1,5 +1,5 @@
 name: Mend pulser
-description: Heals single blocks periodically with a beam.
+description: Heals blocks periodically with a beam.
 range: 100
 targetHealing: true
 playerControllable: false
