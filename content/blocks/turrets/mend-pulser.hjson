@@ -1,5 +1,5 @@
 name: Mend pulser
-description: Heals single blocks periodically with a pulse beam.
+description: Heals single blocks periodically with a beam.
 range: 100
 targetHealing: true
 playerControllable: false
@@ -9,59 +9,15 @@ type: PowerTurret
 category: effect
 targetGround: false
 targetAir: false
-shootSound: laser
-reload: 60
+shootSound: none
+continuous: true
 shootType: {
-    type: PointBulletType
+    type: PointLaserBulletType
     trailSpacing: 1
-   shootEffect: {
-        type: ParticleEffect
-        region: laser-end
-        sizeFrom: 8
-        sizeTo: 8
-        length: 0  
-          }
-    trailEffect: {
-        type: MultiEffect
-        effects: [
-            {
-            type: ParticleEffect
-            region: laser
-            colorFrom: 84f491
-            colorTo: 84f491
-            sizeFrom: 1
-            sizeTo: 1
-            length: 0
-              }
-              {
-            type: ParticleEffect
-            region: laser-top
-            sizeFrom: 1
-            sizeTo: 1
-            length: 0
-              }
-        ]
-    }
-    hitEffect: {
-        type: ParticleEffect
-        region: laser-end
-            colorFrom: 84f491
-            colorTo: 84f491
-        sizeFrom: 8
-        sizeTo: 8
-        length: 0  
-          }
-   despawnEffect: {
-        type: ParticleEffect
-        region: laser-end
-            colorFrom: 84f491
-            colorTo: 84f491
-        sizeFrom: 8
-        sizeTo: 8
-        length: 0  
-          }
+color: 84f491
   damage: 0
   healPercent: 10
+damageInterval: 60
   collidesTeam: true
     }
 requirements: [
