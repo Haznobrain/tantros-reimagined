@@ -17,3 +17,5 @@ category: defense
 research: {
   parent: large-armored-aggregate-wall
 }
+absorbLasers: true
+insulated: true
