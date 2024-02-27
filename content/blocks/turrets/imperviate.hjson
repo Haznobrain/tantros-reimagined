@@ -26,6 +26,7 @@ range: 576
                 }
       dest: [
           {
+            spread: 21.5
           type: ShootAlternate
             shots: 20
             shotDelay: 30
