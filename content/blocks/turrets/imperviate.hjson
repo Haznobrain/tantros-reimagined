@@ -16,23 +16,14 @@ range: 576
   cooldownTime: 1200
   reload: 1200
   shoot: {
-      type: ShootMulti
-          source: {
-              type: ShootBarrel
-                barrels: [
-                    -10.75, -1, 0
-                    10.75, -1, 0 
-                ]
-                }
-      dest: [
-          {
-            spread: 21.5
-          type: ShootAlternate
+          type: ShootBarrel
             shots: 20
             shotDelay: 30
-              }
-              ]
-        }
+            barrels: [
+                    -10.75, -1, 0
+                    10.75, -1, 0 
+             ]
+                }
   consumes: {
   coolant: {
       amount: 0.5
