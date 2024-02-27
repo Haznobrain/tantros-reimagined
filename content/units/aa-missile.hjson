@@ -21,7 +21,6 @@ engineSize: 3
 engineColor: 87daff
 trailLength: 12
 trailWidth: 4
-trailColor: 96f58c
 loopSound: missileTrail
   targetGround: false
   targetAir: true
