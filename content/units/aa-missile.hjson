@@ -50,16 +50,7 @@ weapons: [{
           killShooter: true
 collidesGround: false
 collidesAir: true
-            hitEffect: {
-                type: ExplosionEffect
-                waveColor: 96f58c
-                smokeColor: 96f58c
-                sparkColor: a99ab6
-                waveRad: 40
-                sparkRad: 60
-                smokeSize: 4
-                smokeRad: 45
-          }
+            hitEffect: none
 shootSound: none
 type: ExplosionBulletType
 instantDissapear: true
