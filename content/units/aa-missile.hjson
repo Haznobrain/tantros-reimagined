@@ -48,6 +48,8 @@ weapons: [{
       shootSound: none
         bullet: {
           killShooter: true
+collidesGround: false
+collidesAir: true
             hitEffect: {
                 type: ExplosionEffect
                 waveColor: 96f58c
