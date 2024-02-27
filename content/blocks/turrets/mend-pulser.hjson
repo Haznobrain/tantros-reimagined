@@ -14,6 +14,13 @@ reload: 60
 shootType: {
     type: PointBulletType
     trailSpacing: 1
+   shootEffect: {
+        type: ParticleEffect
+        region: laser-end
+        sizeFrom: 8
+        sizeTo: 8
+        length: 0  
+          }
     trailEffect: {
         type: MultiEffect
         effects: [
@@ -36,6 +43,13 @@ shootType: {
         ]
     }
     hitEffect: {
+        type: ParticleEffect
+        region: laser-end
+        sizeFrom: 8
+        sizeTo: 8
+        length: 0  
+          }
+   despawnEffect: {
         type: ParticleEffect
         region: laser-end
         sizeFrom: 8
