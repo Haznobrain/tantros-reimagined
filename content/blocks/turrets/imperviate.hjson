@@ -47,6 +47,7 @@ ammoTypes: {
       lifetime: 10
       }
       }
+}
       requirements: [
         aluminium/800
         limestone/400
