@@ -6,6 +6,7 @@ playerControllable: false
 displayAmmoMultiplier: false
 size: 2
 type: PowerTurret
+category: effect
 targetGround: false
 targetAir: false
 shootSound: laser
@@ -21,15 +22,15 @@ shootType: {
             region: laser
             colorFrom: 84f491
             colorTo: 84f491
-            sizeFrom: 8
-            sizeTo: 8
+            sizeFrom: 1
+            sizeTo: 1
             length: 0
               }
               {
             type: ParticleEffect
             region: laser-top
-            sizeFrom: 8
-            sizeTo: 8
+            sizeFrom: 1
+            sizeTo: 1
             length: 0
               }
         ]
