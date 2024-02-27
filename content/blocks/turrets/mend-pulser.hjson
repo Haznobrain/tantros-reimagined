@@ -4,6 +4,7 @@ range: 100
 targetHealing: true
 playerControllable: false
 displayAmmoMultiplier: false
+size: 2
 type: PowerTurret
 targetGround: false
 targetAir: false
