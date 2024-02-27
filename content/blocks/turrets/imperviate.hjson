@@ -48,9 +48,11 @@ ammoTypes: {
       }
       }
       requirements: [
-        aluminium/400
-        limestone/250
-        aggregate/120
+        aluminium/800
+        limestone/400
+        aggregate/400
+        basalt/400
+        thorium/200
 ]
       drawer: {
         type: DrawTurret
