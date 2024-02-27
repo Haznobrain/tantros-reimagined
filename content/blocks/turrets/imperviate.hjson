@@ -26,7 +26,7 @@ range: 576
                 }
       dest: [
           {
-          type: ShootPattern
+          type: ShootAlternate
             shots: 20
             shotDelay: 30
               }
