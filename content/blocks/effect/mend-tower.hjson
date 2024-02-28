@@ -14,7 +14,8 @@ drawer: {
           suffix: -middle
           type: DrawPart
         }
-    ]
+     ]
+}
 consumes: {
     liquid: brine/0.05
     power: 6.7
