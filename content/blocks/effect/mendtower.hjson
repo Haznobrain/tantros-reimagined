@@ -1,7 +1,7 @@
 type: MendProjector
 drawer:{
   type: DrawMulti
-    drawers: [
+    drawers:[
         {
           suffix:-bottom
           type: DrawPart
@@ -9,6 +9,7 @@ drawer:{
         {
           suffix:-middle
           type: DrawLiquidTile
+          drawLiquid: brine
         }
         {
           suffix:-middle
