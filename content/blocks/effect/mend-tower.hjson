@@ -1,1 +1,22 @@
-
+type: MendProjector
+drawer: {
+  type: DrawMulti
+    drawers: [
+        {
+          suffix: -bottom
+          type: DrawPart
+        }
+        {
+          suffix: -middle
+          type: DrawLiquidTile
+        }
+        {
+          suffix: -middle
+          type: DrawPart
+        }
+    ]
+consumes: {
+    liquid: brine/0.05
+    power: 6.7
+}
+liquidCapacity: 100
