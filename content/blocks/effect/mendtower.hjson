@@ -18,9 +18,25 @@ drawer:{
      ]
 }
 consumes: {
-    liquid: brine/0.05
+    liquids:{
+      booster: false
+      optional: false
+        liquids: [
+          brine/0.05
+            ]
+        }
+    items:{
+      booster: true
+      optional: true
+        items: [
+          basalt-item/2
+            ]
+        }
     power: 6.7
 }
+range: 144
+reload: 60
+healPercent: 4
 liquidCapacity: 100
 requirements: [
     aggregate/90
