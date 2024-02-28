@@ -1,5 +1,5 @@
 type: MendProjector
-drawer: {
+drawer:{
   type: DrawMulti
     drawers: [
         {
@@ -12,7 +12,7 @@ drawer: {
         }
         {
           suffix:-middle
-          type: DrawPart
+          type: DrawDefault
         }
      ]
 }
