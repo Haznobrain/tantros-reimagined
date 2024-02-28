@@ -21,3 +21,8 @@ consumes: {
     power: 6.7
 }
 liquidCapacity: 100
+requirements: [
+    aggregate/90
+    basalt-item/100
+    thorium/100
+  ]
