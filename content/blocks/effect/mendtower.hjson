@@ -3,15 +3,15 @@ drawer: {
   type: DrawMulti
     drawers: [
         {
-          suffix: -bottom
+          suffix: bottom
           type: DrawPart
         }
         {
-          suffix: -middle
+          suffix: middle
           type: DrawLiquidTile
         }
         {
-          suffix: -middle
+          suffix: middle
           type: DrawPart
         }
      ]
