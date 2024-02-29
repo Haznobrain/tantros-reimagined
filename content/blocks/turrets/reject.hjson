@@ -22,8 +22,9 @@ ammoTypes: {
                 }
                 {
                     type: WaveEffect
-                    sizeFrom: 8
-                    sizeTo: 8
+                    sizeFrom: 0
+                    sizeTo: 4
+                    lifetime: 10
                 }
             ]
         }
