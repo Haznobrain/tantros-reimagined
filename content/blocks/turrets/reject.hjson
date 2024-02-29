@@ -3,12 +3,35 @@ size: 1
 name: Reject
 description: fires a stream of pressurised steam at ennemy targets, dealing high knockback.
 reload: 5
+inaccuracy: 10
 shootEffect: shootLiquid
+shootSound: none
 consumes: {
     power: 1
       }
 ammoTypes: {
   water: {
+        hitEffect: {
+            type: MultiEffect
+            effects: [
+                {
+                    type: ParticleEffect
+                    line: true
+                    length: 16
+                    lifetime: 10
+                }
+                {
+                    type: WaveEffect
+                    sizeFrom: 8
+                    sizeTo: 8
+                }
+            ]
+        }
+        despawnHit: false
+        height: 2
+        width: 2
+        shrinkY: 0
+      lifetime: 20
       type: BasicBulletType
       damage: 0
       knockback: 0.8
