@@ -16,7 +16,7 @@ unmoving,
 ]
 circleTarget: true
 targetAir: false
-drag: 0.06
+drag: 0.02
 weapons: [
   {
   minShootVelocity: 0.2
