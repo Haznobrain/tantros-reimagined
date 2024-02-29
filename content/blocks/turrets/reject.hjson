@@ -24,6 +24,6 @@ requirements: [
 research: {
         parent: dartle
         objectives: [
-            salt-reef 
+            salt_reef 
             ]
 }
