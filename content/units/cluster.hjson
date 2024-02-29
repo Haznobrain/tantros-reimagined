@@ -7,6 +7,7 @@ health: 1650
 armor: 3
 hitSize: 30
 speed: 1.3
+drag: 0.02
 description: A medium-sized unit wich shoots cluster missiles at ennemy targets.
 name: Cluster
 weapons: [
