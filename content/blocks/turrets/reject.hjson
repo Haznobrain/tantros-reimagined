@@ -3,6 +3,7 @@ size: 1
 name: Reject
 description: fires a stream of pressurised steam at ennemy targets, dealing high knockback.
 reload: 5
+shootEffect: shootLiquid
 consumes: {
     power: 1
       }
@@ -20,3 +21,9 @@ requirements: [
     limestone/20
     ]
   range: 120      
+research: {
+        parent: dartle
+        objectives: [
+            salt-reef 
+            ]
+}
