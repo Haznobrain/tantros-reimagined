@@ -7,6 +7,7 @@ health: 110
 speed: 2.13
 description: A small unit wich explodes on its targets, dealing high area damage.
 name: Burst
+drag: 0.02
 weapons: [
   {
   name: burst
