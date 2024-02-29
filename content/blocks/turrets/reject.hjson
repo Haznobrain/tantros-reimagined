@@ -1,0 +1,22 @@
+type: LiquidTurret
+size: 1
+name: Reject
+description: fires a stream of pressurised steam at ennemy targets, dealing high knockback.
+reload: 5
+consumes: {
+    power: 1
+      }
+ammoTypes: {
+  water: {
+      type: BasicBulletType
+      damage: 0
+      knockback: 0.8
+      sprite: tantrosmod-bubble
+      speed: 6
+        }
+}
+requirements: [
+    aluminium/50
+    limestone/20
+    ]
+  range: 120      
