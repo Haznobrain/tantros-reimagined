@@ -39,15 +39,17 @@ ammoTypes: {
                 }
                 {
                     type: WaveEffect
-                    sizeFrom: 8
-                    sizeTo: 8
+                    sizeFrom: 0
+                    sizeTo: 4
+                    lifetime: 10
                 }
             ]
         }
         despawnHit: false
         height: 2
         width: 2
-        shrinkY: 0
+        shrinkY: -0.5
+        shrinkX: -0.5
       lifetime: 20
       type: BasicBulletType
       damage: 0
