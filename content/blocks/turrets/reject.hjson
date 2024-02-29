@@ -27,6 +27,22 @@ ammoTypes: {
                 }
             ]
         }
+        despawnEffect: {
+            type: MultiEffect
+            effects: [
+                {
+                    type: ParticleEffect
+                    line: true
+                    length: 16
+                    lifetime: 10
+                }
+                {
+                    type: WaveEffect
+                    sizeFrom: 8
+                    sizeTo: 8
+                }
+            ]
+        }
         despawnHit: false
         height: 2
         width: 2
