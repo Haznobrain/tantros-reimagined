@@ -2,6 +2,7 @@ type: flying
 flying: true
 engineOffset: 24
 engineSize: 6
+drag: 0.02
 engineColor: 6b85d4
 health: 7500
 immunities: [
