@@ -6,6 +6,7 @@ speed: 0.76
 hitSize: 30
 armor: 6
 hovering: true
+drag: 0.31
 rotateSpeed: 2.5
 legStraightness: 0.3
 allowLegStep: true
