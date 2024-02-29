@@ -8,6 +8,7 @@ hitSize: 38
 hovering: true
 rotateSpeed: 1.95
 legStraightness: 0.3
+drag: 0.31
 allowLegStep: true
 legSpeed: 1.1
 legCount: 4
