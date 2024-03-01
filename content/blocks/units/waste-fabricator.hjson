@@ -1,0 +1,31 @@
+name: Waste fabricator
+size: 3
+description: Produces special units from waste.
+type: unitFactory
+configurable: true
+  consumes: {
+    power: 2
+  }
+plans: [
+{
+unit: loessa
+  requirements: [
+    aggregate/20
+    waste/65
+  ]
+time: 2700
+}
+]
+research: {
+  parent: intermediate-assembler
+      objectives: [
+        cluster
+        ]
+    }
+category: units
+requirements: [
+    aluminium/200
+    aggregate/200
+    basalt/100
+    waste/50
+  ]
