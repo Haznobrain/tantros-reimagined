@@ -2,7 +2,7 @@ name: Brine Saturator
 description: Hyper saturates water into brine.
 type: GenericCrafter
 size: 2
-outputLiquid: brine/0.2
+outputLiquid: brine/0.201
 liquidCapacity: 20
 itemCapacity: 40
 consumes: {
