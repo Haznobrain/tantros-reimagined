@@ -6,6 +6,7 @@ reload: 5
 inaccuracy: 10
 shootEffect: shootLiquid
 shootSound: none
+category: turret
 consumes: {
     power: 1
       }
