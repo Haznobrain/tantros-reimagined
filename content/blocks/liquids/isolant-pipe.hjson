@@ -11,3 +11,5 @@ category: liquid
 research: {
     parent: intake-valve
 }
+name: isolant pipe
+description: moves liquids by isolating them of exterior water.
