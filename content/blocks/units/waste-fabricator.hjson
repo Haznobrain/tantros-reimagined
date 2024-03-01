@@ -26,6 +26,6 @@ category: units
 requirements: [
     aluminium/200
     aggregate/200
-    basalt/100
+    basalt-item/100
     waste/50
   ]
