@@ -4,6 +4,7 @@ type: GenericCrafter
 size: 2
 outputLiquid: brine/0.2
 liquidCapacity: 20
+itemCapacity: 40
 consumes: {
     liquids: [
       water/1
