@@ -15,7 +15,6 @@ legSpeed: 1.1
 legCount: 4
 stepShake: 0
 legLength: 28
-groundLayer: 74
 shadowElevation: 0.25
 legExtension: -3
 legMaxLength: 1.1
