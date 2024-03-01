@@ -13,7 +13,7 @@ legCount: 4
 drag: 0.31
 stepShake: 0
 legLength: 16
-groundLayer: 74
+groundLayer: 75
 shadowElevation: 0.25
 legExtension: -3
 legMaxLength: 1.1
