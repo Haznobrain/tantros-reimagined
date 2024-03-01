@@ -53,6 +53,7 @@ shootOnDeath: true
     trailChance: 0.3
     lifetime: 35.2
     speed: 5
+    damage: 24
     height: 8
     width: 8
     type: FlakBulletType
