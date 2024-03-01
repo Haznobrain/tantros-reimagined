@@ -1,1 +1,12 @@
 type: LiquidJunction
+hasPower: false
+requirements: [
+  aluminium/4
+  aggregate/2
+]
+liquidCapacity: 40
+liquidPressure: 1
+category: liquid
+research: {
+    parent: isolant-pipe
+}
