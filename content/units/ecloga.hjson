@@ -7,6 +7,7 @@ hitSize: 30
 armor: 6
 hovering: true
 drag: 0.31
+groundLayer: 75
 rotateSpeed: 2.5
 legStraightness: 0.3
 allowLegStep: true
