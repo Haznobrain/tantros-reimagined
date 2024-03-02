@@ -1,3 +1,4 @@
 type: staticWall
 variants: 3
   name: Waste wall
+itemDrop: waste
