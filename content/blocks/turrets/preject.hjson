@@ -190,6 +190,63 @@ hitEffect: {
         }
       ]
 }
+shootEffect: {
+    type: MultiEffect
+      effects: [
+        {
+        type: WaveEffect
+        sizeTo: 32
+        strokeFrom: 4
+        lifetime: 12
+        }
+        {
+          type: ParticleEffect
+          region: tantrosmod-shortspike
+          particles: 1
+          rotWithParent: true
+          colorFrom: 00faaa
+          colorTo: 40554e
+          sizeFrom: 16
+          sizeTo: 0
+          baseLength: 0
+          length: 0
+        }
+      ]
+}
+smokeEffect: {
+    type: SeqEffect
+      effects: [
+        {
+        delay: 0
+        particles: 12
+        length: 30
+        cone: 20
+        colorFrom: 4fff91
+        colorTo: 575757
+        interp: swingIn
+        sizeFrom: 5
+        sizeTo: 0
+        lifetime: 120
+        }
+        {
+        delay: 20
+        particles: 4
+        length: 28
+        interp: swingIn
+        sizeFrom: 4
+        randLength: false
+        cone: 20
+        }
+        {
+        delay: 120
+        particles: 20
+        sizeFrom: 6
+        cone: 40
+        length: 30
+        interp: swingIn
+        }
+    ]
+}
 despawnEffect:  {
         type: MultiEffect
           effects: [
