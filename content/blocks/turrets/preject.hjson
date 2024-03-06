@@ -217,7 +217,7 @@ smokeEffect: {
     type: SeqEffect
       effects: [
         {
-        delay: 0
+        startDelay: 0
         particles: 12
         length: 30
         cone: 20
@@ -229,7 +229,8 @@ smokeEffect: {
         lifetime: 120
         }
         {
-        delay: 20
+        startDelay: 20
+        lifetime: 100
         particles: 4
         length: 28
         interp: swingIn
@@ -238,7 +239,8 @@ smokeEffect: {
         cone: 20
         }
         {
-        delay: 120
+        startDelay: 120
+        lifetime: 60
         particles: 20
         sizeFrom: 6
         cone: 40
