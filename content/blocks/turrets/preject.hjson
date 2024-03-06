@@ -119,8 +119,10 @@ waste: {
           effects: [
         {
         type: ParticleEffect
-        length: 0
-        baseLength: 24
+        length: 24
+        interp: pow3In
+        sizeInterp: pow5Out
+        baseLength: -24
         particles: 8
         sizeTo: 8
         colorFrom: 80dc72
@@ -139,11 +141,13 @@ waste: {
         }
            {
         type: ParticleEffect
-        length: 0
         colorFrom: 80dc72
         colorTo: 80dc72
         line: true
-        baseLength: 24
+        length: 24
+        interp: pow3In
+        sizeInterp: pow5Out
+        baseLength: -24
         particles: 8
         LengthTo: 8
         lengthFrom: 0
