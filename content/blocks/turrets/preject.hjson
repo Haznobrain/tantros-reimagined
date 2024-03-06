@@ -214,7 +214,7 @@ shootEffect: {
       ]
 }
 smokeEffect: {
-    type: SeqEffect
+    type: MultiEffect
       effects: [
         {
         startDelay: 0
