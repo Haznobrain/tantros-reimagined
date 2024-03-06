@@ -223,7 +223,6 @@ smokeEffect: {
         cone: 20
         colorFrom: 4fff91
         colorTo: 575757
-        interp: swingIn
         sizeFrom: 5
         sizeTo: 0
         lifetime: 120
@@ -233,7 +232,6 @@ smokeEffect: {
         lifetime: 100
         particles: 4
         length: 28
-        interp: swingIn
         sizeFrom: 4
         randLength: false
         cone: 20
@@ -245,7 +243,6 @@ smokeEffect: {
         sizeFrom: 6
         cone: 40
         length: 30
-        interp: swingIn
         }
     ]
 }
