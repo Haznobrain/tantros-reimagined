@@ -1,1 +1,41 @@
-
+name: Advanced mech assembler.
+description: assembles high tier mech units. WIP.
+size: 5
+type: UnitAssembler
+configurable: true
+droneType: tantrosmod-basic-assembly-drone
+areaSize: 15
+consumes: {
+    power: 16
+}
+plans: [ 
+{
+type: UnitAssemblerPlan
+  unit: salpida
+      time: 3600
+        requirements: [
+          tantrosmod-column/6
+          tantrosmod-large-armored-aggregate-wall/20
+]
+}
+{
+type: UnitAssemblerPlan
+  unit: drop
+      time: 4200
+        requirements: [
+          tantrosmod-dartle/20
+          tantrosmod-aluminium-wall/6
+]
+}
+  ]
+requirements: [
+  aluminium/1000
+  limestone/750
+  salt/800
+  basalt/600
+  aggregate/400
+]
+research:{
+parent: assembly-upgrade-module
+  }
+category: units
