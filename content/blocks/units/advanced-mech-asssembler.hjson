@@ -32,7 +32,7 @@ requirements: [
   aluminium/1000
   limestone/750
   salt/800
-  basalt/600
+  basalt-item/600
   aggregate/400
 ]
 research:{
